@@ -1,6 +1,6 @@
 {
   "model_type": "RandomForestRegressor",
-  "trained_at": "2026-10-28 00:26:37",
+  "trained_at": "2026-10-31 23:08:08",
   "train_samples": 972,
   "test_samples": 252,
   "total_samples": 1224,

@@ -27,7 +27,7 @@ def run_all_tests():
     print("      NEEDMATCH AI — COMPREHENSIVE TEST SUITE     ")
     print("==================================================")
     passed_tests = 0
-    total_tests = 14
+    total_tests = 16
 
     # ---------------- TEST 1: Dataset Generation & Coverage ----------------
     print("\n[TEST 1] Verifying Historical Demand Dataset...")
@@ -205,6 +205,90 @@ def run_all_tests():
     fresh_conn.close()
     assert persisted_status == "Received", f"Expected Received, got {persisted_status}"
     print("-> PASS: SQLite persistence verified across independent database connections.")
+    passed_tests += 1
+
+    # ---------------- TEST 15: Outstanding Backlog Reconciliation ----------------
+    print("\n[TEST 15] Verifying Outstanding Backlog Reconciliation & Request Schema...")
+    backlog_reqs = db.get_open_backlog_requests()
+    stats = db.get_overall_stats()
+    assert len(backlog_reqs) == stats["open_requests_count"], f"Mismatch in count: {len(backlog_reqs)} vs {stats['open_requests_count']}"
+    calc_total_rem = sum(r["remaining_qty"] for r in backlog_reqs)
+    assert calc_total_rem == stats["total_outstanding_requested_units"], f"Backlog mismatch: {calc_total_rem} != {stats['total_outstanding_requested_units']}"
+    for r in backlog_reqs:
+        assert r["org_name"], "Missing NGO name"
+        assert r["category"], "Missing category"
+        assert r["requested_qty"] > 0, "Requested quantity must be positive"
+        assert r["fulfilled_qty"] >= 0, "Fulfilled quantity cannot be negative"
+        assert r["remaining_qty"] == (r["requested_qty"] - r["fulfilled_qty"]), "Remaining calculation invalid"
+        assert r["status"] in ("OPEN", "PARTIALLY_FULFILLED"), f"Invalid status: {r['status']}"
+    print(f"-> PASS: Reconciled {len(backlog_reqs)} open requests totaling {calc_total_rem} units with 0 variance.")
+    passed_tests += 1
+
+    # ---------------- TEST 16: Complete End-to-End Workflow & IST Timestamps ----------------
+    print("\n[TEST 16] Verifying 9-Step Complete Donation, Receipt & IST Timestamp Workflow...")
+    wf_org = "ORG001"
+    wf_cat = "Books"
+    wf_qty = 30
+    inv_start = {r["category"]: r["quantity"] for r in db.get_inventory(wf_org)}
+    start_qty = inv_start.get(wf_cat, 0)
+
+    # 1. Submit donation for NGO A
+    wf_don_id = db.create_donation(
+        donation_type="EXISTING_ITEMS",
+        donor_name="Workflow Verifier",
+        donor_email="workflow.verifier@test.org",
+        donor_phone="9876543210",
+        org_id=wf_org,
+        category=wf_cat,
+        quantity=wf_qty,
+        condition="New",
+        estimated_value_inr=3600.0,
+        notes="Automated comprehensive workflow audit test"
+    )
+    assert wf_don_id > 0, "Donation creation failed!"
+
+    # 2. Verify appears in Donation History
+    hist_dons = db.get_donations()
+    assert any(d["id"] == wf_don_id for d in hist_dons), "Donation missing from Donation History!"
+
+    # 3. Verify appears in NGO A Incoming Donations
+    ngo_inbound = db.get_donations(org_id=wf_org, status="Pending Receipt")
+    assert any(d["id"] == wf_don_id for d in ngo_inbound), "Donation missing from NGO incoming donations!"
+
+    # 4. Verify initial status is Pending Receipt
+    pending_record = [d for d in ngo_inbound if d["id"] == wf_don_id][0]
+    assert pending_record["status"] == "Pending Receipt"
+    assert pending_record["confirmed_at"] is None
+
+    # 5. Verify NGO A inventory has not increased yet
+    inv_unconfirmed = {r["category"]: r["quantity"] for r in db.get_inventory(wf_org)}
+    assert inv_unconfirmed.get(wf_cat, 0) == start_qty, "Inventory must NOT increase while Pending Receipt!"
+
+    # 6. Confirm receipt from NGO Portal
+    conf_res = db.confirm_donation_receipt(wf_don_id, confirming_org_id=wf_org)
+    assert conf_res["success"] is True, f"Receipt confirmation failed: {conf_res}"
+
+    # 7. Verify donation status changes to Received
+    ngo_all_dons = db.get_donations(org_id=wf_org)
+    received_record = [d for d in ngo_all_dons if d["id"] == wf_don_id][0]
+    assert received_record["status"] == "Received"
+    assert received_record["confirmed_at"] is not None
+
+    # 8. Verify inventory increases by exactly the donated quantity
+    inv_confirmed = {r["category"]: r["quantity"] for r in db.get_inventory(wf_org)}
+    assert inv_confirmed.get(wf_cat, 0) == start_qty + wf_qty, f"Expected {start_qty + wf_qty}, got {inv_confirmed.get(wf_cat, 0)}"
+
+    # 9. Verify timestamps are correct in IST everywhere (DD-MM-YYYY HH:MM:SS)
+    sub_ist = db.format_datetime_ist(received_record["created_at"])
+    rec_ist = db.format_datetime_ist(received_record["confirmed_at"])
+    now_ist_obj = db.get_current_ist_time()
+    today_prefix = now_ist_obj.strftime("%d-%m-%Y")
+    assert sub_ist.startswith(today_prefix), f"Submitted At {sub_ist} does not match current IST date {today_prefix}"
+    assert rec_ist.startswith(today_prefix), f"Receipt Confirmed At {rec_ist} does not match current IST date {today_prefix}"
+    assert len(sub_ist) == 19 and sub_ist[2] == "-" and sub_ist[5] == "-" and sub_ist[13] == ":", f"Invalid format {sub_ist}"
+    assert len(rec_ist) == 19 and rec_ist[2] == "-" and rec_ist[5] == "-" and rec_ist[13] == ":", f"Invalid format {rec_ist}"
+
+    print(f"-> PASS: 9-step workflow verified (ID #{wf_don_id}, +{wf_qty} {wf_cat}, IST: {sub_ist} -> {rec_ist}).")
     passed_tests += 1
 
     print("\n==================================================")

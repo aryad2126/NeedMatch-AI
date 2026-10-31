@@ -13,8 +13,57 @@ Provides persistent storage, transactional integrity, and auditable records for:
 import sqlite3
 import os
 import json
+import zoneinfo
 from datetime import datetime
 from typing import List, Dict, Any, Optional
+
+IST = zoneinfo.ZoneInfo("Asia/Kolkata")
+
+def get_current_ist_time() -> datetime:
+    """Returns current datetime in Asia/Kolkata (IST)."""
+    return datetime.now(IST)
+
+def get_current_ist_str() -> str:
+    """Returns current ISO formatted timestamp in IST: YYYY-MM-DD HH:MM:SS."""
+    return datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S")
+
+def format_datetime_ist(dt_val: Optional[Any]) -> str:
+    """
+    Consistently formats a datetime, timestamp string, or None into DD-MM-YYYY HH:MM:SS in Asia/Kolkata (IST).
+    Handles ISO strings, handles UTC offsets if present without double conversion, and displays '—' for empty/null values.
+    """
+    if not dt_val or dt_val is None or str(dt_val).strip() in ("", "None", "null"):
+        return "—"
+    
+    if isinstance(dt_val, datetime):
+        if dt_val.tzinfo is None:
+            dt_val = dt_val.replace(tzinfo=IST)
+        else:
+            dt_val = dt_val.astimezone(IST)
+        return dt_val.strftime("%d-%m-%Y %H:%M:%S")
+    
+    s = str(dt_val).strip()
+    if s.endswith("Z"):
+        try:
+            d = datetime.fromisoformat(s[:-1] + "+00:00").astimezone(IST)
+            return d.strftime("%d-%m-%Y %H:%M:%S")
+        except Exception:
+            pass
+    elif "+00:00" in s or "-00:00" in s:
+        try:
+            d = datetime.fromisoformat(s).astimezone(IST)
+            return d.strftime("%d-%m-%Y %H:%M:%S")
+        except Exception:
+            pass
+
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M", "%d-%m-%Y %H:%M:%S", "%Y-%m-%d"):
+        try:
+            d = datetime.strptime(s[:19], fmt)
+            return d.strftime("%d-%m-%Y %H:%M:%S")
+        except (ValueError, TypeError):
+            continue
+            
+    return s
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "data", "needmatch.db")
 
@@ -113,9 +162,17 @@ def init_db(db_path: str = DB_PATH, force_reseed: bool = False):
         notes TEXT,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         confirmed_at TIMESTAMP,
-        FOREIGN KEY (org_id) REFERENCES organizations(id)
+        purchase_plan_id INTEGER,
+        FOREIGN KEY (org_id) REFERENCES organizations(id),
+        FOREIGN KEY (purchase_plan_id) REFERENCES purchase_plans(id)
     );
     """)
+
+    # Safe Schema Migrations (Ensures purchase_plan_id exists on legacy tables)
+    cursor.execute("PRAGMA table_info(donations)")
+    don_cols = [c[1] for c in cursor.fetchall()]
+    if "purchase_plan_id" not in don_cols:
+        cursor.execute("ALTER TABLE donations ADD COLUMN purchase_plan_id INTEGER DEFAULT NULL REFERENCES purchase_plans(id)")
 
     # 6. Purchase Plans Table (Cleanly separated from physical donations)
     cursor.execute("""
@@ -268,7 +325,7 @@ def init_db(db_path: str = DB_PATH, force_reseed: bool = False):
         """, demo_requests)
 
         # Demo initial donations: clear readable status 'Received' and 'Pending Receipt'
-        now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        now_str = get_current_ist_str()
         seed_donations = [
             ("EXISTING_ITEMS", "Sunil Verma", "sunil.v@example.com", "9811223344", "ORG001", "Notebooks", 30, "New", 1350.0, "Received", "Stationery batch from corporate CSR drive.", now_str, now_str),
             ("EXISTING_ITEMS", "Priya Nair", "priya.n@example.com", "9822334455", "ORG002", "Blankets", 25, "New", 9500.0, "Received", "Heavy wool fleece blankets for winter distribution.", now_str, now_str),
@@ -342,14 +399,15 @@ def get_inventory(org_id: Optional[str] = None) -> List[Dict[str, Any]]:
 def set_inventory_quantity(org_id: str, category: str, quantity: int) -> bool:
     if quantity < 0:
         return False
+    now_ist = get_current_ist_str()
     conn = get_connection()
     conn.execute("""
         INSERT INTO inventory (org_id, category, quantity, last_updated)
-        VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+        VALUES (?, ?, ?, ?)
         ON CONFLICT(org_id, category) DO UPDATE SET
             quantity = excluded.quantity,
-            last_updated = CURRENT_TIMESTAMP
-    """, (org_id, category, quantity))
+            last_updated = ?
+    """, (org_id, category, quantity, now_ist, now_ist))
     conn.commit()
     conn.close()
     return True
@@ -375,15 +433,42 @@ def get_donation_requests(org_id: Optional[str] = None, status: Optional[str] = 
     conn.close()
     return [dict(r) for r in rows]
 
+def get_open_backlog_requests(org_id: Optional[str] = None) -> List[Dict[str, Any]]:
+    """
+    Returns all donation requests with status 'OPEN' or 'PARTIALLY_FULFILLED'
+    that contribute directly to the system-wide Outstanding Backlog.
+    Calculates remaining_qty = (requested_qty - fulfilled_qty).
+    """
+    conn = get_connection()
+    query = """
+        SELECT r.id, r.org_id, o.name as org_name, o.city, r.category,
+               r.requested_qty, r.fulfilled_qty,
+               (r.requested_qty - r.fulfilled_qty) as remaining_qty,
+               r.urgency, r.status, r.notes, r.created_at, r.updated_at
+        FROM donation_requests r
+        JOIN organizations o ON r.org_id = o.id
+        WHERE r.status IN ('OPEN', 'PARTIALLY_FULFILLED')
+    """
+    params = []
+    if org_id:
+        query += " AND r.org_id = ?"
+        params.append(org_id)
+    query += " ORDER BY CASE r.urgency WHEN 'High' THEN 1 WHEN 'Medium' THEN 2 ELSE 3 END, r.created_at DESC"
+
+    rows = conn.execute(query, params).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
 def create_donation_request(org_id: str, category: str, requested_qty: int, urgency: str, notes: str = "") -> int:
     if requested_qty <= 0:
         raise ValueError("Requested quantity must be positive")
+    now_ist = get_current_ist_str()
     conn = get_connection()
     cur = conn.cursor()
     cur.execute("""
-        INSERT INTO donation_requests (org_id, category, requested_qty, fulfilled_qty, urgency, status, notes)
-        VALUES (?, ?, ?, 0, ?, 'OPEN', ?)
-    """, (org_id, category, requested_qty, urgency, notes))
+        INSERT INTO donation_requests (org_id, category, requested_qty, fulfilled_qty, urgency, status, notes, created_at, updated_at)
+        VALUES (?, ?, ?, 0, ?, 'OPEN', ?, ?, ?)
+    """, (org_id, category, requested_qty, urgency, notes, now_ist, now_ist))
     conn.commit()
     new_id = cur.lastrowid
     conn.close()
@@ -392,39 +477,46 @@ def create_donation_request(org_id: str, category: str, requested_qty: int, urge
 def update_donation_request(request_id: int, requested_qty: int, urgency: str, notes: str = "") -> bool:
     if requested_qty <= 0:
         raise ValueError("Requested quantity must be positive")
+    now_ist = get_current_ist_str()
     conn = get_connection()
     conn.execute("""
         UPDATE donation_requests
-        SET requested_qty = ?, urgency = ?, notes = ?, updated_at = CURRENT_TIMESTAMP
+        SET requested_qty = ?, urgency = ?, notes = ?, updated_at = ?
         WHERE id = ?
-    """, (requested_qty, urgency, notes, request_id))
+    """, (requested_qty, urgency, notes, now_ist, request_id))
     conn.commit()
     conn.close()
     return True
 
 def close_donation_request(request_id: int) -> bool:
+    now_ist = get_current_ist_str()
     conn = get_connection()
     conn.execute("""
         UPDATE donation_requests
-        SET status = 'CLOSED', updated_at = CURRENT_TIMESTAMP
+        SET status = 'CLOSED', updated_at = ?
         WHERE id = ?
-    """, (request_id,))
+    """, (now_ist, request_id))
     conn.commit()
     conn.close()
     return True
 
 def update_request_status(request_id: int, status: str) -> bool:
+    now_ist = get_current_ist_str()
     conn = get_connection()
     conn.execute("""
         UPDATE donation_requests
-        SET status = ?, updated_at = CURRENT_TIMESTAMP
+        SET status = ?, updated_at = ?
         WHERE id = ?
-    """, (status, request_id))
+    """, (status, now_ist, request_id))
     conn.commit()
     conn.close()
     return True
 
-def get_donations(org_id: Optional[str] = None, status: Optional[str] = None) -> List[Dict[str, Any]]:
+def get_donations(
+    org_id: Optional[str] = None,
+    status: Optional[str] = None,
+    purchase_plan_id: Optional[int] = None
+) -> List[Dict[str, Any]]:
     conn = get_connection()
     query = """
         SELECT d.*, o.name as org_name, o.city
@@ -447,6 +539,10 @@ def get_donations(org_id: Optional[str] = None, status: Optional[str] = None) ->
         else:
             query += " AND d.status = ?"
             params.append(status)
+    if purchase_plan_id is not None:
+        query += " AND d.purchase_plan_id = ?"
+        params.append(purchase_plan_id)
+
     query += " ORDER BY d.created_at DESC"
 
     rows = conn.execute(query, params).fetchall()
@@ -463,24 +559,26 @@ def create_donation(
     quantity: int,
     condition: str = "Good",
     estimated_value_inr: float = 0.0,
-    notes: str = ""
+    notes: str = "",
+    purchase_plan_id: Optional[int] = None
 ) -> int:
-    """Submits a donation record in 'Pending Receipt' state. Does NOT alter inventory."""
+    """Submits a donation record in 'Pending Receipt' state. Does NOT alter inventory. Optionally links to originating purchase plan."""
     if quantity <= 0:
         raise ValueError("Donation quantity must be greater than 0")
     if not donor_name or not donor_email:
         raise ValueError("Donor name and email are required")
 
+    now_ist = get_current_ist_str()
     conn = get_connection()
     cur = conn.cursor()
     cur.execute("""
         INSERT INTO donations (
             donation_type, donor_name, donor_email, donor_phone, org_id, category,
-            quantity, condition, estimated_value_inr, status, notes, created_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Pending Receipt', ?, CURRENT_TIMESTAMP)
+            quantity, condition, estimated_value_inr, status, notes, created_at, purchase_plan_id
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Pending Receipt', ?, ?, ?)
     """, (
         donation_type, donor_name, donor_email, donor_phone,
-        org_id, category, quantity, condition, estimated_value_inr, notes
+        org_id, category, quantity, condition, estimated_value_inr, notes, now_ist, purchase_plan_id
     ))
     conn.commit()
     new_id = cur.lastrowid
@@ -529,22 +627,23 @@ def confirm_donation_receipt(donation_id: int, confirming_org_id: Optional[str] 
         org_id = don["org_id"]
         category = don["category"]
         quantity = don["quantity"]
+        now_ist = get_current_ist_str()
 
-        # 1. Update Donation Status to 'Received'
+        # 1. Update Donation Status to 'Received' with IST timestamp
         cur.execute("""
             UPDATE donations
-            SET status = 'Received', confirmed_at = CURRENT_TIMESTAMP
+            SET status = 'Received', confirmed_at = ?
             WHERE id = ?
-        """, (donation_id,))
+        """, (now_ist, donation_id))
 
         # 2. Update Inventory
         cur.execute("""
             INSERT INTO inventory (org_id, category, quantity, last_updated)
-            VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?)
             ON CONFLICT(org_id, category) DO UPDATE SET
                 quantity = quantity + excluded.quantity,
-                last_updated = CURRENT_TIMESTAMP
-        """, (org_id, category, quantity))
+                last_updated = ?
+        """, (org_id, category, quantity, now_ist, now_ist))
 
         # 3. Check and allocate to Open/Partially Fulfilled Requests
         cur.execute("""
@@ -567,9 +666,9 @@ def confirm_donation_receipt(donation_id: int, confirming_org_id: Optional[str] 
 
             cur.execute("""
                 UPDATE donation_requests
-                SET fulfilled_qty = ?, status = ?, updated_at = CURRENT_TIMESTAMP
+                SET fulfilled_qty = ?, status = ?, updated_at = ?
                 WHERE id = ?
-            """, (new_fulfilled, new_status, req["id"]))
+            """, (new_fulfilled, new_status, now_ist, req["id"]))
 
             remaining_alloc -= alloc
             allocated_details.append(f"Request #{req['id']} updated with +{alloc} units ({new_status})")
@@ -602,20 +701,153 @@ def save_purchase_plan(
     if total_allocated_inr > total_budget_inr:
         raise ValueError("Allocated cost exceeds total available budget")
 
+    now_ist = get_current_ist_str()
     conn = get_connection()
     cur = conn.cursor()
     cur.execute("""
         INSERT INTO purchase_plans (
-            donor_name, donor_email, total_budget_inr, total_allocated_inr, remaining_budget_inr, items_json
-        ) VALUES (?, ?, ?, ?, ?, ?)
+            donor_name, donor_email, total_budget_inr, total_allocated_inr, remaining_budget_inr, items_json, created_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?)
     """, (
         donor_name, donor_email, total_budget_inr, total_allocated_inr,
-        remaining_budget_inr, json.dumps(items)
+        remaining_budget_inr, json.dumps(items), now_ist
     ))
     conn.commit()
     new_id = cur.lastrowid
     conn.close()
     return new_id
+
+def get_purchase_plan_progress(plan_id: int) -> Dict[str, Any]:
+    """
+    Computes precise live fulfillment progress for a saved purchase plan by inspecting
+    all linked physical donation records. Distinguishes pending receipt from confirmed receipt.
+    Status lifecycle:
+    - 'Saved': 0 units donated so far.
+    - 'Partially Donated': Some items submitted, but total donated < total planned.
+    - 'Donated': All planned units have been submitted as donations, but at least one is pending receipt.
+    - 'Completed': All planned units have been physically confirmed and received by the recipient NGOs.
+    """
+    conn = get_connection()
+    plan_row = conn.execute("SELECT * FROM purchase_plans WHERE id = ?", (plan_id,)).fetchone()
+    if not plan_row:
+        conn.close()
+        return {}
+
+    plan_dict = dict(plan_row)
+    try:
+        items = json.loads(plan_dict["items_json"])
+    except Exception:
+        items = []
+
+    linked_rows = conn.execute("""
+        SELECT d.*, o.name as org_name
+        FROM donations d
+        JOIN organizations o ON d.org_id = o.id
+        WHERE d.purchase_plan_id = ?
+        ORDER BY d.created_at ASC
+    """, (plan_id,)).fetchall()
+    conn.close()
+
+    linked_dons = [dict(r) for r in linked_rows]
+
+    items_progress = []
+    total_planned = 0
+    total_donated = 0
+    total_received = 0
+    total_pending = 0
+
+    for idx, item in enumerate(items):
+        cat = item.get("category")
+        org = item.get("org_id")
+        planned_q = int(item.get("quantity", 0))
+        total_planned += planned_q
+
+        # Filter donations matching this allocation line
+        matching = [d for d in linked_dons if d.get("category") == cat and d.get("org_id") == org]
+        donated_q = sum(int(d.get("quantity", 0)) for d in matching)
+        received_q = sum(int(d.get("quantity", 0)) for d in matching if d.get("status") in ("Received", "CONFIRMED"))
+        pending_q = sum(int(d.get("quantity", 0)) for d in matching if d.get("status") in ("Pending Receipt", "PENDING"))
+
+        total_donated += donated_q
+        total_received += received_q
+        total_pending += pending_q
+
+        rem_q = max(0, planned_q - donated_q)
+
+        if donated_q == 0:
+            alloc_stat = "Not Donated"
+        elif received_q >= planned_q:
+            alloc_stat = "Received"
+        elif donated_q >= planned_q:
+            alloc_stat = "Pending Receipt"
+        else:
+            alloc_stat = "Partially Donated"
+
+        items_progress.append({
+            "item_index": idx,
+            "category": cat,
+            "org_id": org,
+            "org_name": item.get("org_name", org),
+            "unit_name": item.get("unit_name", "Unit"),
+            "unit_price": float(item.get("unit_price", 0.0)),
+            "cost": float(item.get("cost", 0.0)),
+            "planned_quantity": planned_q,
+            "donated_quantity": donated_q,
+            "received_quantity": received_q,
+            "pending_quantity": pending_q,
+            "remaining_quantity": rem_q,
+            "allocation_status": alloc_stat,
+            "is_fulfilled": donated_q >= planned_q,
+            "is_received": received_q >= planned_q,
+            "matching_donations": matching
+        })
+
+    total_rem = max(0, total_planned - total_donated)
+
+    if total_donated == 0:
+        overall_status = "Saved"
+    elif total_donated < total_planned:
+        overall_status = "Partially Donated"
+    elif total_received >= total_planned:
+        overall_status = "Completed"
+    else:
+        overall_status = "Donated"
+
+    return {
+        "plan_id": plan_id,
+        "donor_name": plan_dict["donor_name"],
+        "donor_email": plan_dict["donor_email"],
+        "total_budget_inr": plan_dict["total_budget_inr"],
+        "total_allocated_inr": plan_dict["total_allocated_inr"],
+        "remaining_budget_inr": plan_dict["remaining_budget_inr"],
+        "created_at": plan_dict["created_at"],
+        "total_planned_units": total_planned,
+        "total_donated_units": total_donated,
+        "total_received_units": total_received,
+        "total_pending_units": total_pending,
+        "total_remaining_units": total_rem,
+        "pct_donated": min(100.0, (total_donated / max(1, total_planned)) * 100),
+        "pct_received": min(100.0, (total_received / max(1, total_planned)) * 100),
+        "status": overall_status,
+        "items_progress": items_progress,
+        "linked_donations": linked_dons
+    }
+
+def get_purchase_plan_by_id(plan_id: int) -> Optional[Dict[str, Any]]:
+    """Retrieves a single purchase plan by ID with live donation progress attached."""
+    conn = get_connection()
+    row = conn.execute("SELECT * FROM purchase_plans WHERE id = ?", (plan_id,)).fetchone()
+    conn.close()
+    if not row:
+        return None
+    d = dict(row)
+    try:
+        d["items"] = json.loads(d["items_json"])
+    except Exception:
+        d["items"] = []
+    d["progress"] = get_purchase_plan_progress(plan_id)
+    d["status"] = d["progress"].get("status", "Saved")
+    return d
 
 def get_purchase_plans() -> List[Dict[str, Any]]:
     conn = get_connection()
@@ -628,6 +860,8 @@ def get_purchase_plans() -> List[Dict[str, Any]]:
             d["items"] = json.loads(d["items_json"])
         except Exception:
             d["items"] = []
+        d["progress"] = get_purchase_plan_progress(d["id"])
+        d["status"] = d["progress"].get("status", "Saved")
         results.append(d)
     return results
 
@@ -648,15 +882,16 @@ def save_predictions(pred_records: List[Dict[str, Any]]):
         );
     """)
 
+    now_ist = get_current_ist_str()
     for p in pred_records:
         cur.execute("""
             INSERT INTO demand_predictions (org_id, category, predicted_demand, mae_error_margin, prediction_date)
-            VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP)
+            VALUES (?, ?, ?, ?, ?)
             ON CONFLICT(org_id, category) DO UPDATE SET
                 predicted_demand = excluded.predicted_demand,
                 mae_error_margin = excluded.mae_error_margin,
-                prediction_date = CURRENT_TIMESTAMP
-        """, (p["org_id"], p["category"], float(p["predicted_demand"]), float(p.get("mae_error_margin", 0))))
+                prediction_date = ?
+        """, (p["org_id"], p["category"], float(p["predicted_demand"]), float(p.get("mae_error_margin", 0)), now_ist, now_ist))
 
     conn.commit()
     conn.close()

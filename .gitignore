@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+scratch/
+data/needmatch_backup_*.db

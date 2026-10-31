@@ -216,7 +216,8 @@ def get_demand_forecast_table() -> pd.DataFrame:
         inv = inv_map.get(key, 0)
         backlog = req_map.get(key, 0)
         pred = p["predicted_demand"]
-        shortfall = max(0.0, (backlog + pred) - inv)
+        # Estimated Shortage represents predicted demand minus current inventory: max(0, predicted_demand - current_inventory)
+        shortfall = max(0.0, round(pred - inv, 1))
 
         enriched.append({
             "org_id": p["org_id"],
