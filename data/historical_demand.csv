@@ -1,0 +1,1225 @@
+date,year,month,org_id,org_name,category,historical_demand_qty,fulfilled_qty,inventory_level,outstanding_requests,season_factor,target_next_30d_demand,is_synthetic
+2024-01-01,2024,1,ORG001,Asha Education Foundation,Books,185,141,95,47,1.0,172,1
+2024-01-01,2024,1,ORG001,Asha Education Foundation,Notebooks,331,184,167,204,1.0,359,1
+2024-01-01,2024,1,ORG001,Asha Education Foundation,Schoolbags,103,63,25,45,1.0,116,1
+2024-01-01,2024,1,ORG001,Asha Education Foundation,Clothing,182,139,54,45,2.2,134,1
+2024-01-01,2024,1,ORG001,Asha Education Foundation,Blankets,229,189,87,43,3.8,141,1
+2024-01-01,2024,1,ORG001,Asha Education Foundation,Hygiene Products,195,149,34,49,1.1,156,1
+2024-01-01,2024,1,ORG002,Goonj Seva Trust,Books,84,59,41,26,1.0,87,1
+2024-01-01,2024,1,ORG002,Goonj Seva Trust,Notebooks,155,99,94,71,1.0,166,1
+2024-01-01,2024,1,ORG002,Goonj Seva Trust,Schoolbags,58,36,25,31,1.0,43,1
+2024-01-01,2024,1,ORG002,Goonj Seva Trust,Clothing,525,305,321,237,2.2,258,1
+2024-01-01,2024,1,ORG002,Goonj Seva Trust,Blankets,490,316,169,232,3.8,316,1
+2024-01-01,2024,1,ORG002,Goonj Seva Trust,Hygiene Products,241,144,102,128,1.1,258,1
+2024-01-01,2024,1,ORG003,Pratham Youth Initiative,Books,160,134,24,33,1.0,188,1
+2024-01-01,2024,1,ORG003,Pratham Youth Initiative,Notebooks,354,239,66,120,1.0,350,1
+2024-01-01,2024,1,ORG003,Pratham Youth Initiative,Schoolbags,113,65,36,54,1.0,122,1
+2024-01-01,2024,1,ORG003,Pratham Youth Initiative,Clothing,584,503,274,96,2.2,208,1
+2024-01-01,2024,1,ORG003,Pratham Youth Initiative,Blankets,268,200,142,89,3.8,156,1
+2024-01-01,2024,1,ORG003,Pratham Youth Initiative,Hygiene Products,209,117,76,96,1.1,133,1
+2024-01-01,2024,1,ORG004,Sneha Health & Shelter,Books,91,66,28,34,1.0,87,1
+2024-01-01,2024,1,ORG004,Sneha Health & Shelter,Notebooks,155,98,82,59,1.0,136,1
+2024-01-01,2024,1,ORG004,Sneha Health & Shelter,Schoolbags,51,42,31,11,1.0,53,1
+2024-01-01,2024,1,ORG004,Sneha Health & Shelter,Clothing,527,454,128,89,2.2,242,1
+2024-01-01,2024,1,ORG004,Sneha Health & Shelter,Blankets,455,318,120,182,3.8,315,1
+2024-01-01,2024,1,ORG004,Sneha Health & Shelter,Hygiene Products,196,116,51,91,1.1,300,1
+2024-01-01,2024,1,ORG005,Vidya Jyoti Rural Mission,Books,171,136,70,40,1.0,183,1
+2024-01-01,2024,1,ORG005,Vidya Jyoti Rural Mission,Notebooks,319,207,96,114,1.0,256,1
+2024-01-01,2024,1,ORG005,Vidya Jyoti Rural Mission,Schoolbags,110,71,19,53,1.0,142,1
+2024-01-01,2024,1,ORG005,Vidya Jyoti Rural Mission,Clothing,246,220,97,29,2.2,115,1
+2024-01-01,2024,1,ORG005,Vidya Jyoti Rural Mission,Blankets,565,455,152,126,3.8,357,1
+2024-01-01,2024,1,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,174,101,73,97,1.1,174,1
+2024-01-01,2024,1,ORG006,Karuna Care Society,Books,80,61,14,24,1.0,84,1
+2024-01-01,2024,1,ORG006,Karuna Care Society,Notebooks,166,129,44,40,1.0,159,1
+2024-01-01,2024,1,ORG006,Karuna Care Society,Schoolbags,50,30,31,23,1.0,67,1
+2024-01-01,2024,1,ORG006,Karuna Care Society,Clothing,490,410,235,98,2.2,249,1
+2024-01-01,2024,1,ORG006,Karuna Care Society,Blankets,401,346,79,75,3.8,335,1
+2024-01-01,2024,1,ORG006,Karuna Care Society,Hygiene Products,238,191,77,64,1.1,330,1
+2024-02-01,2024,2,ORG001,Asha Education Foundation,Books,180,104,85,81,1.0,146,1
+2024-02-01,2024,2,ORG001,Asha Education Foundation,Notebooks,329,193,51,172,1.0,283,1
+2024-02-01,2024,2,ORG001,Asha Education Foundation,Schoolbags,134,84,64,64,1.0,93,1
+2024-02-01,2024,2,ORG001,Asha Education Foundation,Clothing,110,86,58,32,1.0,104,1
+2024-02-01,2024,2,ORG001,Asha Education Foundation,Blankets,186,126,37,66,2.5,58,1
+2024-02-01,2024,2,ORG001,Asha Education Foundation,Hygiene Products,165,137,77,34,1.1,145,1
+2024-02-01,2024,2,ORG002,Goonj Seva Trust,Books,88,71,22,19,1.0,96,1
+2024-02-01,2024,2,ORG002,Goonj Seva Trust,Notebooks,167,147,40,28,1.0,131,1
+2024-02-01,2024,2,ORG002,Goonj Seva Trust,Schoolbags,55,48,9,8,1.0,49,1
+2024-02-01,2024,2,ORG002,Goonj Seva Trust,Clothing,221,187,76,38,1.0,256,1
+2024-02-01,2024,2,ORG002,Goonj Seva Trust,Blankets,336,267,208,85,2.5,78,1
+2024-02-01,2024,2,ORG002,Goonj Seva Trust,Hygiene Products,297,178,192,144,1.1,261,1
+2024-02-01,2024,2,ORG003,Pratham Youth Initiative,Books,182,145,91,42,1.0,150,1
+2024-02-01,2024,2,ORG003,Pratham Youth Initiative,Notebooks,355,303,197,71,1.0,238,1
+2024-02-01,2024,2,ORG003,Pratham Youth Initiative,Schoolbags,116,90,64,33,1.0,128,1
+2024-02-01,2024,2,ORG003,Pratham Youth Initiative,Clothing,240,164,77,79,1.0,239,1
+2024-02-01,2024,2,ORG003,Pratham Youth Initiative,Blankets,160,118,61,47,2.5,48,1
+2024-02-01,2024,2,ORG003,Pratham Youth Initiative,Hygiene Products,142,119,24,26,1.1,151,1
+2024-02-01,2024,2,ORG004,Sneha Health & Shelter,Books,91,57,49,42,1.0,63,1
+2024-02-01,2024,2,ORG004,Sneha Health & Shelter,Notebooks,213,171,100,58,1.0,162,1
+2024-02-01,2024,2,ORG004,Sneha Health & Shelter,Schoolbags,43,28,24,18,1.0,46,1
+2024-02-01,2024,2,ORG004,Sneha Health & Shelter,Clothing,212,128,50,92,1.0,280,1
+2024-02-01,2024,2,ORG004,Sneha Health & Shelter,Blankets,397,257,191,193,2.5,97,1
+2024-02-01,2024,2,ORG004,Sneha Health & Shelter,Hygiene Products,302,210,138,101,1.1,347,1
+2024-02-01,2024,2,ORG005,Vidya Jyoti Rural Mission,Books,201,119,32,84,1.0,128,1
+2024-02-01,2024,2,ORG005,Vidya Jyoti Rural Mission,Notebooks,311,225,62,102,1.0,315,1
+2024-02-01,2024,2,ORG005,Vidya Jyoti Rural Mission,Schoolbags,106,81,37,31,1.0,75,1
+2024-02-01,2024,2,ORG005,Vidya Jyoti Rural Mission,Clothing,119,86,55,44,1.0,114,1
+2024-02-01,2024,2,ORG005,Vidya Jyoti Rural Mission,Blankets,289,224,54,66,2.5,97,1
+2024-02-01,2024,2,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,161,110,70,64,1.1,152,1
+2024-02-01,2024,2,ORG006,Karuna Care Society,Books,114,78,71,50,1.0,56,1
+2024-02-01,2024,2,ORG006,Karuna Care Society,Notebooks,156,132,48,24,1.0,136,1
+2024-02-01,2024,2,ORG006,Karuna Care Society,Schoolbags,53,42,11,14,1.0,50,1
+2024-02-01,2024,2,ORG006,Karuna Care Society,Clothing,243,158,134,91,1.0,250,1
+2024-02-01,2024,2,ORG006,Karuna Care Society,Blankets,357,248,230,125,2.5,99,1
+2024-02-01,2024,2,ORG006,Karuna Care Society,Hygiene Products,265,225,163,47,1.1,330,1
+2024-03-01,2024,3,ORG001,Asha Education Foundation,Books,154,133,31,25,0.8,154,1
+2024-03-01,2024,3,ORG001,Asha Education Foundation,Notebooks,241,165,144,76,0.8,287,1
+2024-03-01,2024,3,ORG001,Asha Education Foundation,Schoolbags,91,68,57,29,0.8,86,1
+2024-03-01,2024,3,ORG001,Asha Education Foundation,Clothing,95,75,30,26,1.0,115,1
+2024-03-01,2024,3,ORG001,Asha Education Foundation,Blankets,51,37,10,14,0.7,51,1
+2024-03-01,2024,3,ORG001,Asha Education Foundation,Hygiene Products,112,75,67,39,1.1,182,1
+2024-03-01,2024,3,ORG002,Goonj Seva Trust,Books,76,44,35,33,0.8,68,1
+2024-03-01,2024,3,ORG002,Goonj Seva Trust,Notebooks,126,100,71,27,0.8,137,1
+2024-03-01,2024,3,ORG002,Goonj Seva Trust,Schoolbags,37,33,21,6,0.8,38,1
+2024-03-01,2024,3,ORG002,Goonj Seva Trust,Clothing,215,177,41,46,1.0,273,1
+2024-03-01,2024,3,ORG002,Goonj Seva Trust,Blankets,102,74,21,28,0.7,90,1
+2024-03-01,2024,3,ORG002,Goonj Seva Trust,Hygiene Products,266,157,56,137,1.1,288,1
+2024-03-01,2024,3,ORG003,Pratham Youth Initiative,Books,149,101,94,53,0.8,166,1
+2024-03-01,2024,3,ORG003,Pratham Youth Initiative,Notebooks,247,137,156,153,0.8,272,1
+2024-03-01,2024,3,ORG003,Pratham Youth Initiative,Schoolbags,90,67,17,32,0.8,88,1
+2024-03-01,2024,3,ORG003,Pratham Youth Initiative,Clothing,298,211,148,109,1.0,246,1
+2024-03-01,2024,3,ORG003,Pratham Youth Initiative,Blankets,53,34,9,26,0.7,49,1
+2024-03-01,2024,3,ORG003,Pratham Youth Initiative,Hygiene Products,148,96,68,56,1.1,168,1
+2024-03-01,2024,3,ORG004,Sneha Health & Shelter,Books,54,31,24,32,0.8,68,1
+2024-03-01,2024,3,ORG004,Sneha Health & Shelter,Notebooks,102,81,57,22,0.8,139,1
+2024-03-01,2024,3,ORG004,Sneha Health & Shelter,Schoolbags,38,32,23,6,0.8,55,1
+2024-03-01,2024,3,ORG004,Sneha Health & Shelter,Clothing,232,208,129,25,1.0,226,1
+2024-03-01,2024,3,ORG004,Sneha Health & Shelter,Blankets,73,62,46,15,0.7,107,1
+2024-03-01,2024,3,ORG004,Sneha Health & Shelter,Hygiene Products,204,116,58,118,1.1,259,1
+2024-03-01,2024,3,ORG005,Vidya Jyoti Rural Mission,Books,140,123,75,23,0.8,141,1
+2024-03-01,2024,3,ORG005,Vidya Jyoti Rural Mission,Notebooks,247,218,53,36,0.8,208,1
+2024-03-01,2024,3,ORG005,Vidya Jyoti Rural Mission,Schoolbags,95,64,44,32,0.8,76,1
+2024-03-01,2024,3,ORG005,Vidya Jyoti Rural Mission,Clothing,124,91,66,44,1.0,151,1
+2024-03-01,2024,3,ORG005,Vidya Jyoti Rural Mission,Blankets,115,79,68,38,0.7,112,1
+2024-03-01,2024,3,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,176,105,45,71,1.1,166,1
+2024-03-01,2024,3,ORG006,Karuna Care Society,Books,82,58,28,33,0.8,57,1
+2024-03-01,2024,3,ORG006,Karuna Care Society,Notebooks,136,94,74,52,0.8,99,1
+2024-03-01,2024,3,ORG006,Karuna Care Society,Schoolbags,36,32,14,5,0.8,45,1
+2024-03-01,2024,3,ORG006,Karuna Care Society,Clothing,265,153,72,118,1.0,194,1
+2024-03-01,2024,3,ORG006,Karuna Care Society,Blankets,96,64,23,43,0.7,82,1
+2024-03-01,2024,3,ORG006,Karuna Care Society,Hygiene Products,361,223,85,140,1.1,279,1
+2024-04-01,2024,4,ORG001,Asha Education Foundation,Books,132,77,31,58,0.8,446,1
+2024-04-01,2024,4,ORG001,Asha Education Foundation,Notebooks,213,155,71,74,0.8,884,1
+2024-04-01,2024,4,ORG001,Asha Education Foundation,Schoolbags,80,70,47,10,0.8,316,1
+2024-04-01,2024,4,ORG001,Asha Education Foundation,Clothing,134,82,70,56,1.0,112,1
+2024-04-01,2024,4,ORG001,Asha Education Foundation,Blankets,46,31,21,18,0.7,15,1
+2024-04-01,2024,4,ORG001,Asha Education Foundation,Hygiene Products,165,120,99,55,1.1,133,1
+2024-04-01,2024,4,ORG002,Goonj Seva Trust,Books,72,46,30,29,0.8,226,1
+2024-04-01,2024,4,ORG002,Goonj Seva Trust,Notebooks,130,81,40,55,0.8,465,1
+2024-04-01,2024,4,ORG002,Goonj Seva Trust,Schoolbags,55,40,30,16,0.8,176,1
+2024-04-01,2024,4,ORG002,Goonj Seva Trust,Clothing,301,211,157,95,1.0,263,1
+2024-04-01,2024,4,ORG002,Goonj Seva Trust,Blankets,83,62,39,24,0.7,33,1
+2024-04-01,2024,4,ORG002,Goonj Seva Trust,Hygiene Products,291,170,78,128,1.1,295,1
+2024-04-01,2024,4,ORG003,Pratham Youth Initiative,Books,130,84,32,49,0.8,464,1
+2024-04-01,2024,4,ORG003,Pratham Youth Initiative,Notebooks,180,106,115,86,0.8,979,1
+2024-04-01,2024,4,ORG003,Pratham Youth Initiative,Schoolbags,82,64,19,25,0.8,336,1
+2024-04-01,2024,4,ORG003,Pratham Youth Initiative,Clothing,292,239,85,57,1.0,281,1
+2024-04-01,2024,4,ORG003,Pratham Youth Initiative,Blankets,43,27,17,17,0.7,16,1
+2024-04-01,2024,4,ORG003,Pratham Youth Initiative,Hygiene Products,123,74,54,58,1.1,165,1
+2024-04-01,2024,4,ORG004,Sneha Health & Shelter,Books,67,40,21,28,0.8,257,1
+2024-04-01,2024,4,ORG004,Sneha Health & Shelter,Notebooks,124,101,61,28,0.8,510,1
+2024-04-01,2024,4,ORG004,Sneha Health & Shelter,Schoolbags,32,28,10,5,0.8,144,1
+2024-04-01,2024,4,ORG004,Sneha Health & Shelter,Clothing,239,137,58,132,1.0,237,1
+2024-04-01,2024,4,ORG004,Sneha Health & Shelter,Blankets,105,87,23,19,0.7,41,1
+2024-04-01,2024,4,ORG004,Sneha Health & Shelter,Hygiene Products,279,218,155,74,1.1,280,1
+2024-04-01,2024,4,ORG005,Vidya Jyoti Rural Mission,Books,155,130,54,29,0.8,474,1
+2024-04-01,2024,4,ORG005,Vidya Jyoti Rural Mission,Notebooks,237,192,71,54,0.8,662,1
+2024-04-01,2024,4,ORG005,Vidya Jyoti Rural Mission,Schoolbags,91,67,31,33,0.8,300,1
+2024-04-01,2024,4,ORG005,Vidya Jyoti Rural Mission,Clothing,108,83,67,28,1.0,126,1
+2024-04-01,2024,4,ORG005,Vidya Jyoti Rural Mission,Blankets,96,71,44,34,0.7,38,1
+2024-04-01,2024,4,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,141,90,43,66,1.1,158,1
+2024-04-01,2024,4,ORG006,Karuna Care Society,Books,73,63,39,11,0.8,241,1
+2024-04-01,2024,4,ORG006,Karuna Care Society,Notebooks,154,97,35,73,0.8,443,1
+2024-04-01,2024,4,ORG006,Karuna Care Society,Schoolbags,50,37,25,14,0.8,185,1
+2024-04-01,2024,4,ORG006,Karuna Care Society,Clothing,205,155,124,58,1.0,220,1
+2024-04-01,2024,4,ORG006,Karuna Care Society,Blankets,100,76,23,29,0.7,39,1
+2024-04-01,2024,4,ORG006,Karuna Care Society,Hygiene Products,283,248,166,43,1.1,292,1
+2024-05-01,2024,5,ORG001,Asha Education Foundation,Books,522,315,263,255,2.8,508,1
+2024-05-01,2024,5,ORG001,Asha Education Foundation,Notebooks,759,666,393,127,2.8,1112,1
+2024-05-01,2024,5,ORG001,Asha Education Foundation,Schoolbags,272,229,175,45,2.8,304,1
+2024-05-01,2024,5,ORG001,Asha Education Foundation,Clothing,159,90,56,78,1.0,129,1
+2024-05-01,2024,5,ORG001,Asha Education Foundation,Blankets,18,16,8,5,0.3,16,1
+2024-05-01,2024,5,ORG001,Asha Education Foundation,Hygiene Products,173,109,65,76,1.1,136,1
+2024-05-01,2024,5,ORG002,Goonj Seva Trust,Books,248,173,99,102,2.8,247,1
+2024-05-01,2024,5,ORG002,Goonj Seva Trust,Notebooks,528,293,246,297,2.8,365,1
+2024-05-01,2024,5,ORG002,Goonj Seva Trust,Schoolbags,154,138,30,19,2.8,139,1
+2024-05-01,2024,5,ORG002,Goonj Seva Trust,Clothing,216,135,113,110,1.0,240,1
+2024-05-01,2024,5,ORG002,Goonj Seva Trust,Blankets,37,26,6,13,0.3,37,1
+2024-05-01,2024,5,ORG002,Goonj Seva Trust,Hygiene Products,339,234,126,129,1.1,198,1
+2024-05-01,2024,5,ORG003,Pratham Youth Initiative,Books,473,417,275,64,2.8,472,1
+2024-05-01,2024,5,ORG003,Pratham Youth Initiative,Notebooks,995,556,353,466,2.8,762,1
+2024-05-01,2024,5,ORG003,Pratham Youth Initiative,Schoolbags,343,215,56,140,2.8,356,1
+2024-05-01,2024,5,ORG003,Pratham Youth Initiative,Clothing,238,185,57,58,1.0,232,1
+2024-05-01,2024,5,ORG003,Pratham Youth Initiative,Blankets,20,17,10,5,0.3,20,1
+2024-05-01,2024,5,ORG003,Pratham Youth Initiative,Hygiene Products,180,117,45,86,1.1,133,1
+2024-05-01,2024,5,ORG004,Sneha Health & Shelter,Books,265,229,96,48,2.8,217,1
+2024-05-01,2024,5,ORG004,Sneha Health & Shelter,Notebooks,398,301,135,107,2.8,423,1
+2024-05-01,2024,5,ORG004,Sneha Health & Shelter,Schoolbags,135,95,58,45,2.8,194,1
+2024-05-01,2024,5,ORG004,Sneha Health & Shelter,Clothing,262,183,144,80,1.0,235,1
+2024-05-01,2024,5,ORG004,Sneha Health & Shelter,Blankets,41,26,19,16,0.3,32,1
+2024-05-01,2024,5,ORG004,Sneha Health & Shelter,Hygiene Products,246,137,70,149,1.1,295,1
+2024-05-01,2024,5,ORG005,Vidya Jyoti Rural Mission,Books,505,376,145,163,2.8,436,1
+2024-05-01,2024,5,ORG005,Vidya Jyoti Rural Mission,Notebooks,853,510,133,466,2.8,964,1
+2024-05-01,2024,5,ORG005,Vidya Jyoti Rural Mission,Schoolbags,318,249,143,74,2.8,346,1
+2024-05-01,2024,5,ORG005,Vidya Jyoti Rural Mission,Clothing,119,87,41,33,1.0,134,1
+2024-05-01,2024,5,ORG005,Vidya Jyoti Rural Mission,Blankets,42,32,8,11,0.3,36,1
+2024-05-01,2024,5,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,123,99,40,27,1.1,136,1
+2024-05-01,2024,5,ORG006,Karuna Care Society,Books,226,198,109,36,2.8,337,1
+2024-05-01,2024,5,ORG006,Karuna Care Society,Notebooks,502,363,88,172,2.8,383,1
+2024-05-01,2024,5,ORG006,Karuna Care Society,Schoolbags,181,104,37,99,2.8,146,1
+2024-05-01,2024,5,ORG006,Karuna Care Society,Clothing,291,185,107,141,1.0,234,1
+2024-05-01,2024,5,ORG006,Karuna Care Society,Blankets,43,33,12,11,0.3,44,1
+2024-05-01,2024,5,ORG006,Karuna Care Society,Hygiene Products,245,210,103,45,1.1,283,1
+2024-06-01,2024,6,ORG001,Asha Education Foundation,Books,528,447,262,89,2.8,440,1
+2024-06-01,2024,6,ORG001,Asha Education Foundation,Notebooks,741,652,477,90,2.8,709,1
+2024-06-01,2024,6,ORG001,Asha Education Foundation,Schoolbags,325,243,78,112,2.8,250,1
+2024-06-01,2024,6,ORG001,Asha Education Foundation,Clothing,128,113,81,18,1.0,190,1
+2024-06-01,2024,6,ORG001,Asha Education Foundation,Blankets,21,18,7,5,0.3,21,1
+2024-06-01,2024,6,ORG001,Asha Education Foundation,Hygiene Products,125,72,26,68,1.1,248,1
+2024-06-01,2024,6,ORG002,Goonj Seva Trust,Books,294,194,54,122,2.8,180,1
+2024-06-01,2024,6,ORG002,Goonj Seva Trust,Notebooks,432,372,200,75,2.8,416,1
+2024-06-01,2024,6,ORG002,Goonj Seva Trust,Schoolbags,161,134,100,38,2.8,142,1
+2024-06-01,2024,6,ORG002,Goonj Seva Trust,Clothing,270,194,95,95,1.0,347,1
+2024-06-01,2024,6,ORG002,Goonj Seva Trust,Blankets,38,31,14,8,0.3,47,1
+2024-06-01,2024,6,ORG002,Goonj Seva Trust,Hygiene Products,281,184,83,106,1.1,408,1
+2024-06-01,2024,6,ORG003,Pratham Youth Initiative,Books,492,388,168,113,2.8,400,1
+2024-06-01,2024,6,ORG003,Pratham Youth Initiative,Notebooks,889,783,524,126,2.8,643,1
+2024-06-01,2024,6,ORG003,Pratham Youth Initiative,Schoolbags,267,168,172,136,2.8,255,1
+2024-06-01,2024,6,ORG003,Pratham Youth Initiative,Clothing,268,169,109,106,1.0,451,1
+2024-06-01,2024,6,ORG003,Pratham Youth Initiative,Blankets,19,13,10,6,0.3,19,1
+2024-06-01,2024,6,ORG003,Pratham Youth Initiative,Hygiene Products,144,114,76,32,1.1,201,1
+2024-06-01,2024,6,ORG004,Sneha Health & Shelter,Books,239,176,63,78,2.8,217,1
+2024-06-01,2024,6,ORG004,Sneha Health & Shelter,Notebooks,422,271,248,159,2.8,377,1
+2024-06-01,2024,6,ORG004,Sneha Health & Shelter,Schoolbags,165,123,79,43,2.8,131,1
+2024-06-01,2024,6,ORG004,Sneha Health & Shelter,Clothing,186,149,52,44,1.0,321,1
+2024-06-01,2024,6,ORG004,Sneha Health & Shelter,Blankets,37,27,21,12,0.3,41,1
+2024-06-01,2024,6,ORG004,Sneha Health & Shelter,Hygiene Products,334,263,108,87,1.1,470,1
+2024-06-01,2024,6,ORG005,Vidya Jyoti Rural Mission,Books,529,413,290,155,2.8,373,1
+2024-06-01,2024,6,ORG005,Vidya Jyoti Rural Mission,Notebooks,951,755,541,249,2.8,775,1
+2024-06-01,2024,6,ORG005,Vidya Jyoti Rural Mission,Schoolbags,360,309,83,69,2.8,262,1
+2024-06-01,2024,6,ORG005,Vidya Jyoti Rural Mission,Clothing,116,70,61,61,1.0,176,1
+2024-06-01,2024,6,ORG005,Vidya Jyoti Rural Mission,Blankets,40,26,6,17,0.3,46,1
+2024-06-01,2024,6,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,151,117,42,41,1.1,236,1
+2024-06-01,2024,6,ORG006,Karuna Care Society,Books,246,182,131,89,2.8,207,1
+2024-06-01,2024,6,ORG006,Karuna Care Society,Notebooks,537,315,331,305,2.8,305,1
+2024-06-01,2024,6,ORG006,Karuna Care Society,Schoolbags,151,120,45,32,2.8,129,1
+2024-06-01,2024,6,ORG006,Karuna Care Society,Clothing,184,104,85,108,1.0,421,1
+2024-06-01,2024,6,ORG006,Karuna Care Society,Blankets,37,21,20,16,0.3,42,1
+2024-06-01,2024,6,ORG006,Karuna Care Society,Hygiene Products,287,226,154,72,1.1,341,1
+2024-07-01,2024,7,ORG001,Asha Education Foundation,Books,322,267,75,70,2.2,131,1
+2024-07-01,2024,7,ORG001,Asha Education Foundation,Notebooks,810,715,232,101,2.2,377,1
+2024-07-01,2024,7,ORG001,Asha Education Foundation,Schoolbags,262,203,94,68,2.2,110,1
+2024-07-01,2024,7,ORG001,Asha Education Foundation,Clothing,216,135,57,82,1.6,191,1
+2024-07-01,2024,7,ORG001,Asha Education Foundation,Blankets,18,13,10,7,0.3,57,1
+2024-07-01,2024,7,ORG001,Asha Education Foundation,Hygiene Products,241,198,130,58,1.7,228,1
+2024-07-01,2024,7,ORG002,Goonj Seva Trust,Books,217,122,47,130,2.2,106,1
+2024-07-01,2024,7,ORG002,Goonj Seva Trust,Notebooks,425,251,166,183,2.2,178,1
+2024-07-01,2024,7,ORG002,Goonj Seva Trust,Schoolbags,116,84,29,33,2.2,70,1
+2024-07-01,2024,7,ORG002,Goonj Seva Trust,Clothing,306,202,168,123,1.6,404,1
+2024-07-01,2024,7,ORG002,Goonj Seva Trust,Blankets,38,25,17,17,0.3,66,1
+2024-07-01,2024,7,ORG002,Goonj Seva Trust,Hygiene Products,472,339,80,139,1.7,479,1
+2024-07-01,2024,7,ORG003,Pratham Youth Initiative,Books,389,310,179,97,2.2,153,1
+2024-07-01,2024,7,ORG003,Pratham Youth Initiative,Notebooks,639,359,208,289,2.2,327,1
+2024-07-01,2024,7,ORG003,Pratham Youth Initiative,Schoolbags,214,169,93,59,2.2,107,1
+2024-07-01,2024,7,ORG003,Pratham Youth Initiative,Clothing,355,274,72,104,1.6,358,1
+2024-07-01,2024,7,ORG003,Pratham Youth Initiative,Blankets,21,18,11,5,0.3,44,1
+2024-07-01,2024,7,ORG003,Pratham Youth Initiative,Hygiene Products,217,125,121,125,1.7,265,1
+2024-07-01,2024,7,ORG004,Sneha Health & Shelter,Books,233,181,88,63,2.2,94,1
+2024-07-01,2024,7,ORG004,Sneha Health & Shelter,Notebooks,353,225,64,136,2.2,172,1
+2024-07-01,2024,7,ORG004,Sneha Health & Shelter,Schoolbags,121,81,77,43,2.2,60,1
+2024-07-01,2024,7,ORG004,Sneha Health & Shelter,Clothing,406,302,162,134,1.6,430,1
+2024-07-01,2024,7,ORG004,Sneha Health & Shelter,Blankets,40,32,10,8,0.3,95,1
+2024-07-01,2024,7,ORG004,Sneha Health & Shelter,Hygiene Products,511,414,262,114,1.7,447,1
+2024-07-01,2024,7,ORG005,Vidya Jyoti Rural Mission,Books,332,187,214,195,2.2,146,1
+2024-07-01,2024,7,ORG005,Vidya Jyoti Rural Mission,Notebooks,580,418,297,219,2.2,404,1
+2024-07-01,2024,7,ORG005,Vidya Jyoti Rural Mission,Schoolbags,238,180,69,79,2.2,123,1
+2024-07-01,2024,7,ORG005,Vidya Jyoti Rural Mission,Clothing,208,168,97,42,1.6,166,1
+2024-07-01,2024,7,ORG005,Vidya Jyoti Rural Mission,Blankets,42,27,10,21,0.3,96,1
+2024-07-01,2024,7,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,243,155,96,119,1.7,226,1
+2024-07-01,2024,7,ORG006,Karuna Care Society,Books,220,167,73,56,2.2,60,1
+2024-07-01,2024,7,ORG006,Karuna Care Society,Notebooks,386,301,108,96,2.2,167,1
+2024-07-01,2024,7,ORG006,Karuna Care Society,Schoolbags,119,84,76,38,2.2,60,1
+2024-07-01,2024,7,ORG006,Karuna Care Society,Clothing,283,198,160,93,1.6,390,1
+2024-07-01,2024,7,ORG006,Karuna Care Society,Blankets,47,29,11,18,0.3,103,1
+2024-07-01,2024,7,ORG006,Karuna Care Society,Hygiene Products,497,420,192,102,1.7,519,1
+2024-08-01,2024,8,ORG001,Asha Education Foundation,Books,199,117,50,91,1.0,183,1
+2024-08-01,2024,8,ORG001,Asha Education Foundation,Notebooks,327,184,202,150,1.0,299,1
+2024-08-01,2024,8,ORG001,Asha Education Foundation,Schoolbags,121,88,37,34,1.0,110,1
+2024-08-01,2024,8,ORG001,Asha Education Foundation,Clothing,199,141,116,70,1.6,129,1
+2024-08-01,2024,8,ORG001,Asha Education Foundation,Blankets,60,34,13,29,0.7,48,1
+2024-08-01,2024,8,ORG001,Asha Education Foundation,Hygiene Products,208,185,101,24,1.7,253,1
+2024-08-01,2024,8,ORG002,Goonj Seva Trust,Books,85,52,50,42,1.0,113,1
+2024-08-01,2024,8,ORG002,Goonj Seva Trust,Notebooks,168,143,77,31,1.0,209,1
+2024-08-01,2024,8,ORG002,Goonj Seva Trust,Schoolbags,65,51,17,16,1.0,66,1
+2024-08-01,2024,8,ORG002,Goonj Seva Trust,Clothing,344,310,165,35,1.6,246,1
+2024-08-01,2024,8,ORG002,Goonj Seva Trust,Blankets,92,76,54,20,0.7,97,1
+2024-08-01,2024,8,ORG002,Goonj Seva Trust,Hygiene Products,483,321,170,205,1.7,473,1
+2024-08-01,2024,8,ORG003,Pratham Youth Initiative,Books,190,133,104,76,1.0,193,1
+2024-08-01,2024,8,ORG003,Pratham Youth Initiative,Notebooks,330,219,50,127,1.0,286,1
+2024-08-01,2024,8,ORG003,Pratham Youth Initiative,Schoolbags,132,93,45,43,1.0,100,1
+2024-08-01,2024,8,ORG003,Pratham Youth Initiative,Clothing,320,244,60,96,1.6,220,1
+2024-08-01,2024,8,ORG003,Pratham Youth Initiative,Blankets,44,37,15,8,0.7,61,1
+2024-08-01,2024,8,ORG003,Pratham Youth Initiative,Hygiene Products,221,151,71,81,1.7,234,1
+2024-08-01,2024,8,ORG004,Sneha Health & Shelter,Books,103,84,47,25,1.0,119,1
+2024-08-01,2024,8,ORG004,Sneha Health & Shelter,Notebooks,163,93,100,96,1.0,177,1
+2024-08-01,2024,8,ORG004,Sneha Health & Shelter,Schoolbags,52,33,20,21,1.0,56,1
+2024-08-01,2024,8,ORG004,Sneha Health & Shelter,Clothing,423,279,177,179,1.6,220,1
+2024-08-01,2024,8,ORG004,Sneha Health & Shelter,Blankets,82,49,29,35,0.7,104,1
+2024-08-01,2024,8,ORG004,Sneha Health & Shelter,Hygiene Products,400,319,165,84,1.7,484,1
+2024-08-01,2024,8,ORG005,Vidya Jyoti Rural Mission,Books,144,104,91,53,1.0,187,1
+2024-08-01,2024,8,ORG005,Vidya Jyoti Rural Mission,Notebooks,303,268,141,43,1.0,329,1
+2024-08-01,2024,8,ORG005,Vidya Jyoti Rural Mission,Schoolbags,112,70,30,52,1.0,112,1
+2024-08-01,2024,8,ORG005,Vidya Jyoti Rural Mission,Clothing,223,150,134,80,1.6,118,1
+2024-08-01,2024,8,ORG005,Vidya Jyoti Rural Mission,Blankets,85,59,48,33,0.7,103,1
+2024-08-01,2024,8,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,241,182,91,63,1.7,213,1
+2024-08-01,2024,8,ORG006,Karuna Care Society,Books,99,58,26,41,1.0,97,1
+2024-08-01,2024,8,ORG006,Karuna Care Society,Notebooks,193,122,82,82,1.0,202,1
+2024-08-01,2024,8,ORG006,Karuna Care Society,Schoolbags,57,34,37,29,1.0,75,1
+2024-08-01,2024,8,ORG006,Karuna Care Society,Clothing,313,248,159,91,1.6,183,1
+2024-08-01,2024,8,ORG006,Karuna Care Society,Blankets,100,58,29,43,0.7,112,1
+2024-08-01,2024,8,ORG006,Karuna Care Society,Hygiene Products,393,226,129,202,1.7,415,1
+2024-09-01,2024,9,ORG001,Asha Education Foundation,Books,183,142,108,50,1.0,203,1
+2024-09-01,2024,9,ORG001,Asha Education Foundation,Notebooks,280,251,136,37,1.0,390,1
+2024-09-01,2024,9,ORG001,Asha Education Foundation,Schoolbags,134,77,51,70,1.0,164,1
+2024-09-01,2024,9,ORG001,Asha Education Foundation,Clothing,108,63,45,53,1.0,198,1
+2024-09-01,2024,9,ORG001,Asha Education Foundation,Blankets,44,36,21,11,0.7,56,1
+2024-09-01,2024,9,ORG001,Asha Education Foundation,Hygiene Products,220,197,50,32,1.7,127,1
+2024-09-01,2024,9,ORG002,Goonj Seva Trust,Books,105,81,43,25,1.0,131,1
+2024-09-01,2024,9,ORG002,Goonj Seva Trust,Notebooks,158,130,89,36,1.0,247,1
+2024-09-01,2024,9,ORG002,Goonj Seva Trust,Schoolbags,52,46,10,7,1.0,68,1
+2024-09-01,2024,9,ORG002,Goonj Seva Trust,Clothing,213,162,80,62,1.0,288,1
+2024-09-01,2024,9,ORG002,Goonj Seva Trust,Blankets,93,79,60,15,0.7,103,1
+2024-09-01,2024,9,ORG002,Goonj Seva Trust,Hygiene Products,430,367,253,83,1.7,335,1
+2024-09-01,2024,9,ORG003,Pratham Youth Initiative,Books,164,113,31,55,1.0,279,1
+2024-09-01,2024,9,ORG003,Pratham Youth Initiative,Notebooks,286,221,182,86,1.0,530,1
+2024-09-01,2024,9,ORG003,Pratham Youth Initiative,Schoolbags,111,91,50,21,1.0,171,1
+2024-09-01,2024,9,ORG003,Pratham Youth Initiative,Clothing,165,112,37,54,1.0,359,1
+2024-09-01,2024,9,ORG003,Pratham Youth Initiative,Blankets,49,34,31,17,0.7,52,1
+2024-09-01,2024,9,ORG003,Pratham Youth Initiative,Hygiene Products,153,118,31,38,1.7,158,1
+2024-09-01,2024,9,ORG004,Sneha Health & Shelter,Books,109,62,25,62,1.0,148,1
+2024-09-01,2024,9,ORG004,Sneha Health & Shelter,Notebooks,155,88,100,86,1.0,235,1
+2024-09-01,2024,9,ORG004,Sneha Health & Shelter,Schoolbags,53,30,26,28,1.0,78,1
+2024-09-01,2024,9,ORG004,Sneha Health & Shelter,Clothing,194,142,90,61,1.0,396,1
+2024-09-01,2024,9,ORG004,Sneha Health & Shelter,Blankets,78,54,26,32,0.7,91,1
+2024-09-01,2024,9,ORG004,Sneha Health & Shelter,Hygiene Products,502,349,78,182,1.7,321,1
+2024-09-01,2024,9,ORG005,Vidya Jyoti Rural Mission,Books,166,104,69,62,1.0,261,1
+2024-09-01,2024,9,ORG005,Vidya Jyoti Rural Mission,Notebooks,287,203,122,112,1.0,456,1
+2024-09-01,2024,9,ORG005,Vidya Jyoti Rural Mission,Schoolbags,111,74,25,48,1.0,139,1
+2024-09-01,2024,9,ORG005,Vidya Jyoti Rural Mission,Clothing,89,63,31,34,1.0,175,1
+2024-09-01,2024,9,ORG005,Vidya Jyoti Rural Mission,Blankets,86,60,42,29,0.7,105,1
+2024-09-01,2024,9,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,232,181,109,69,1.7,169,1
+2024-09-01,2024,9,ORG006,Karuna Care Society,Books,106,78,19,30,1.0,153,1
+2024-09-01,2024,9,ORG006,Karuna Care Society,Notebooks,171,97,84,77,1.0,286,1
+2024-09-01,2024,9,ORG006,Karuna Care Society,Schoolbags,55,30,10,35,1.0,83,1
+2024-09-01,2024,9,ORG006,Karuna Care Society,Clothing,214,144,64,92,1.0,412,1
+2024-09-01,2024,9,ORG006,Karuna Care Society,Blankets,82,48,19,43,0.7,100,1
+2024-09-01,2024,9,ORG006,Karuna Care Society,Hygiene Products,411,238,66,240,1.7,325,1
+2024-10-01,2024,10,ORG001,Asha Education Foundation,Books,280,191,129,96,1.4,228,1
+2024-10-01,2024,10,ORG001,Asha Education Foundation,Notebooks,473,367,254,128,1.4,408,1
+2024-10-01,2024,10,ORG001,Asha Education Foundation,Schoolbags,144,110,92,42,1.4,174,1
+2024-10-01,2024,10,ORG001,Asha Education Foundation,Clothing,201,120,96,92,1.5,198,1
+2024-10-01,2024,10,ORG001,Asha Education Foundation,Blankets,42,32,16,14,0.7,132,1
+2024-10-01,2024,10,ORG001,Asha Education Foundation,Hygiene Products,143,123,36,25,1.1,147,1
+2024-10-01,2024,10,ORG002,Goonj Seva Trust,Books,142,120,82,30,1.4,120,1
+2024-10-01,2024,10,ORG002,Goonj Seva Trust,Notebooks,261,220,99,53,1.4,214,1
+2024-10-01,2024,10,ORG002,Goonj Seva Trust,Schoolbags,87,64,21,32,1.4,92,1
+2024-10-01,2024,10,ORG002,Goonj Seva Trust,Clothing,353,295,181,63,1.5,354,1
+2024-10-01,2024,10,ORG002,Goonj Seva Trust,Blankets,108,80,56,35,0.7,336,1
+2024-10-01,2024,10,ORG002,Goonj Seva Trust,Hygiene Products,227,180,98,63,1.1,298,1
+2024-10-01,2024,10,ORG003,Pratham Youth Initiative,Books,288,205,66,83,1.4,271,1
+2024-10-01,2024,10,ORG003,Pratham Youth Initiative,Notebooks,503,294,325,243,1.4,408,1
+2024-10-01,2024,10,ORG003,Pratham Youth Initiative,Schoolbags,145,117,62,35,1.4,167,1
+2024-10-01,2024,10,ORG003,Pratham Youth Initiative,Clothing,335,249,182,86,1.5,310,1
+2024-10-01,2024,10,ORG003,Pratham Youth Initiative,Blankets,44,30,28,16,0.7,187,1
+2024-10-01,2024,10,ORG003,Pratham Youth Initiative,Hygiene Products,144,129,85,17,1.1,138,1
+2024-10-01,2024,10,ORG004,Sneha Health & Shelter,Books,156,118,93,44,1.4,123,1
+2024-10-01,2024,10,ORG004,Sneha Health & Shelter,Notebooks,285,219,43,75,1.4,216,1
+2024-10-01,2024,10,ORG004,Sneha Health & Shelter,Schoolbags,75,43,35,39,1.4,106,1
+2024-10-01,2024,10,ORG004,Sneha Health & Shelter,Clothing,436,343,197,123,1.5,439,1
+2024-10-01,2024,10,ORG004,Sneha Health & Shelter,Blankets,102,59,41,44,0.7,313,1
+2024-10-01,2024,10,ORG004,Sneha Health & Shelter,Hygiene Products,334,276,168,70,1.1,272,1
+2024-10-01,2024,10,ORG005,Vidya Jyoti Rural Mission,Books,215,151,68,66,1.4,244,1
+2024-10-01,2024,10,ORG005,Vidya Jyoti Rural Mission,Notebooks,484,435,251,67,1.4,384,1
+2024-10-01,2024,10,ORG005,Vidya Jyoti Rural Mission,Schoolbags,137,113,64,25,1.4,191,1
+2024-10-01,2024,10,ORG005,Vidya Jyoti Rural Mission,Clothing,210,158,72,64,1.5,178,1
+2024-10-01,2024,10,ORG005,Vidya Jyoti Rural Mission,Blankets,88,49,28,39,0.7,290,1
+2024-10-01,2024,10,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,143,94,58,67,1.1,167,1
+2024-10-01,2024,10,ORG006,Karuna Care Society,Books,122,103,72,20,1.4,105,1
+2024-10-01,2024,10,ORG006,Karuna Care Society,Notebooks,231,138,90,96,1.4,277,1
+2024-10-01,2024,10,ORG006,Karuna Care Society,Schoolbags,80,64,29,21,1.4,98,1
+2024-10-01,2024,10,ORG006,Karuna Care Society,Clothing,372,302,81,88,1.5,310,1
+2024-10-01,2024,10,ORG006,Karuna Care Society,Blankets,93,59,26,46,0.7,327,1
+2024-10-01,2024,10,ORG006,Karuna Care Society,Hygiene Products,265,187,140,102,1.1,262,1
+2024-11-01,2024,11,ORG001,Asha Education Foundation,Books,250,143,42,146,1.4,163,1
+2024-11-01,2024,11,ORG001,Asha Education Foundation,Notebooks,464,312,165,207,1.4,284,1
+2024-11-01,2024,11,ORG001,Asha Education Foundation,Schoolbags,158,90,98,79,1.4,119,1
+2024-11-01,2024,11,ORG001,Asha Education Foundation,Clothing,205,131,131,93,1.5,242,1
+2024-11-01,2024,11,ORG001,Asha Education Foundation,Blankets,179,159,68,25,2.5,221,1
+2024-11-01,2024,11,ORG001,Asha Education Foundation,Hygiene Products,138,87,31,56,1.1,147,1
+2024-11-01,2024,11,ORG002,Goonj Seva Trust,Books,133,78,55,74,1.4,105,1
+2024-11-01,2024,11,ORG002,Goonj Seva Trust,Notebooks,229,170,115,61,1.4,173,1
+2024-11-01,2024,11,ORG002,Goonj Seva Trust,Schoolbags,71,63,17,11,1.4,38,1
+2024-11-01,2024,11,ORG002,Goonj Seva Trust,Clothing,338,263,120,91,1.5,653,1
+2024-11-01,2024,11,ORG002,Goonj Seva Trust,Blankets,336,239,186,99,2.5,466,1
+2024-11-01,2024,11,ORG002,Goonj Seva Trust,Hygiene Products,273,166,76,121,1.1,317,1
+2024-11-01,2024,11,ORG003,Pratham Youth Initiative,Books,254,218,64,49,1.4,214,1
+2024-11-01,2024,11,ORG003,Pratham Youth Initiative,Notebooks,439,393,165,60,1.4,349,1
+2024-11-01,2024,11,ORG003,Pratham Youth Initiative,Schoolbags,173,125,73,50,1.4,111,1
+2024-11-01,2024,11,ORG003,Pratham Youth Initiative,Clothing,402,330,137,100,1.5,558,1
+2024-11-01,2024,11,ORG003,Pratham Youth Initiative,Blankets,176,146,52,37,2.5,219,1
+2024-11-01,2024,11,ORG003,Pratham Youth Initiative,Hygiene Products,174,151,61,28,1.1,163,1
+2024-11-01,2024,11,ORG004,Sneha Health & Shelter,Books,137,91,75,62,1.4,83,1
+2024-11-01,2024,11,ORG004,Sneha Health & Shelter,Notebooks,230,138,148,99,1.4,180,1
+2024-11-01,2024,11,ORG004,Sneha Health & Shelter,Schoolbags,72,55,27,18,1.4,61,1
+2024-11-01,2024,11,ORG004,Sneha Health & Shelter,Clothing,366,325,147,48,1.5,541,1
+2024-11-01,2024,11,ORG004,Sneha Health & Shelter,Blankets,292,204,173,94,2.5,537,1
+2024-11-01,2024,11,ORG004,Sneha Health & Shelter,Hygiene Products,296,237,122,80,1.1,286,1
+2024-11-01,2024,11,ORG005,Vidya Jyoti Rural Mission,Books,256,218,62,50,1.4,172,1
+2024-11-01,2024,11,ORG005,Vidya Jyoti Rural Mission,Notebooks,558,399,171,211,1.4,342,1
+2024-11-01,2024,11,ORG005,Vidya Jyoti Rural Mission,Schoolbags,117,98,46,22,1.4,104,1
+2024-11-01,2024,11,ORG005,Vidya Jyoti Rural Mission,Clothing,197,115,111,90,1.5,245,1
+2024-11-01,2024,11,ORG005,Vidya Jyoti Rural Mission,Blankets,319,259,120,76,2.5,454,1
+2024-11-01,2024,11,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,125,89,71,50,1.1,176,1
+2024-11-01,2024,11,ORG006,Karuna Care Society,Books,115,76,56,50,1.4,96,1
+2024-11-01,2024,11,ORG006,Karuna Care Society,Notebooks,226,146,128,101,1.4,181,1
+2024-11-01,2024,11,ORG006,Karuna Care Society,Schoolbags,82,51,25,31,1.4,71,1
+2024-11-01,2024,11,ORG006,Karuna Care Society,Clothing,402,344,249,76,1.5,443,1
+2024-11-01,2024,11,ORG006,Karuna Care Society,Blankets,361,313,101,61,2.5,579,1
+2024-11-01,2024,11,ORG006,Karuna Care Society,Hygiene Products,261,186,97,101,1.1,301,1
+2024-12-01,2024,12,ORG001,Asha Education Foundation,Books,132,78,84,63,1.0,208,1
+2024-12-01,2024,12,ORG001,Asha Education Foundation,Notebooks,320,209,185,151,1.0,363,1
+2024-12-01,2024,12,ORG001,Asha Education Foundation,Schoolbags,122,108,19,18,1.0,126,1
+2024-12-01,2024,12,ORG001,Asha Education Foundation,Clothing,301,257,88,46,2.2,268,1
+2024-12-01,2024,12,ORG001,Asha Education Foundation,Blankets,276,175,55,102,3.8,339,1
+2024-12-01,2024,12,ORG001,Asha Education Foundation,Hygiene Products,118,77,53,46,1.1,155,1
+2024-12-01,2024,12,ORG002,Goonj Seva Trust,Books,103,63,61,41,1.0,117,1
+2024-12-01,2024,12,ORG002,Goonj Seva Trust,Notebooks,185,139,31,64,1.0,165,1
+2024-12-01,2024,12,ORG002,Goonj Seva Trust,Schoolbags,58,49,11,11,1.0,69,1
+2024-12-01,2024,12,ORG002,Goonj Seva Trust,Clothing,542,465,306,95,2.2,595,1
+2024-12-01,2024,12,ORG002,Goonj Seva Trust,Blankets,345,242,106,135,3.8,580,1
+2024-12-01,2024,12,ORG002,Goonj Seva Trust,Hygiene Products,327,249,122,98,1.1,319,1
+2024-12-01,2024,12,ORG003,Pratham Youth Initiative,Books,214,156,58,60,1.0,205,1
+2024-12-01,2024,12,ORG003,Pratham Youth Initiative,Notebooks,318,281,151,46,1.0,246,1
+2024-12-01,2024,12,ORG003,Pratham Youth Initiative,Schoolbags,113,65,53,53,1.0,142,1
+2024-12-01,2024,12,ORG003,Pratham Youth Initiative,Clothing,498,298,86,222,2.2,406,1
+2024-12-01,2024,12,ORG003,Pratham Youth Initiative,Blankets,220,143,100,83,3.8,275,1
+2024-12-01,2024,12,ORG003,Pratham Youth Initiative,Hygiene Products,149,93,23,57,1.1,161,1
+2024-12-01,2024,12,ORG004,Sneha Health & Shelter,Books,89,67,49,27,1.0,89,1
+2024-12-01,2024,12,ORG004,Sneha Health & Shelter,Notebooks,178,103,62,94,1.0,175,1
+2024-12-01,2024,12,ORG004,Sneha Health & Shelter,Schoolbags,56,48,23,10,1.0,55,1
+2024-12-01,2024,12,ORG004,Sneha Health & Shelter,Clothing,501,350,174,176,2.2,509,1
+2024-12-01,2024,12,ORG004,Sneha Health & Shelter,Blankets,527,347,239,239,3.8,570,1
+2024-12-01,2024,12,ORG004,Sneha Health & Shelter,Hygiene Products,301,178,148,142,1.1,288,1
+2024-12-01,2024,12,ORG005,Vidya Jyoti Rural Mission,Books,133,93,28,52,1.0,172,1
+2024-12-01,2024,12,ORG005,Vidya Jyoti Rural Mission,Notebooks,349,275,169,85,1.0,338,1
+2024-12-01,2024,12,ORG005,Vidya Jyoti Rural Mission,Schoolbags,111,97,52,17,1.0,118,1
+2024-12-01,2024,12,ORG005,Vidya Jyoti Rural Mission,Clothing,284,246,60,39,2.2,308,1
+2024-12-01,2024,12,ORG005,Vidya Jyoti Rural Mission,Blankets,441,308,69,149,3.8,544,1
+2024-12-01,2024,12,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,202,120,35,100,1.1,151,1
+2024-12-01,2024,12,ORG006,Karuna Care Society,Books,107,91,51,20,1.0,87,1
+2024-12-01,2024,12,ORG006,Karuna Care Society,Notebooks,207,136,60,93,1.0,163,1
+2024-12-01,2024,12,ORG006,Karuna Care Society,Schoolbags,68,58,38,14,1.0,59,1
+2024-12-01,2024,12,ORG006,Karuna Care Society,Clothing,411,279,181,164,2.2,507,1
+2024-12-01,2024,12,ORG006,Karuna Care Society,Blankets,574,349,194,264,3.8,609,1
+2024-12-01,2024,12,ORG006,Karuna Care Society,Hygiene Products,261,203,42,73,1.1,295,1
+2025-01-01,2025,1,ORG001,Asha Education Foundation,Books,176,116,62,76,1.0,184,1
+2025-01-01,2025,1,ORG001,Asha Education Foundation,Notebooks,278,249,72,34,1.0,399,1
+2025-01-01,2025,1,ORG001,Asha Education Foundation,Schoolbags,106,59,42,57,1.0,124,1
+2025-01-01,2025,1,ORG001,Asha Education Foundation,Clothing,282,158,48,143,2.2,137,1
+2025-01-01,2025,1,ORG001,Asha Education Foundation,Blankets,269,233,79,38,3.8,218,1
+2025-01-01,2025,1,ORG001,Asha Education Foundation,Hygiene Products,159,121,94,51,1.1,166,1
+2025-01-01,2025,1,ORG002,Goonj Seva Trust,Books,96,64,33,39,1.0,103,1
+2025-01-01,2025,1,ORG002,Goonj Seva Trust,Notebooks,183,149,77,45,1.0,154,1
+2025-01-01,2025,1,ORG002,Goonj Seva Trust,Schoolbags,48,30,13,18,1.0,57,1
+2025-01-01,2025,1,ORG002,Goonj Seva Trust,Clothing,469,349,297,137,2.2,226,1
+2025-01-01,2025,1,ORG002,Goonj Seva Trust,Blankets,468,360,174,129,3.8,364,1
+2025-01-01,2025,1,ORG002,Goonj Seva Trust,Hygiene Products,322,247,140,81,1.1,345,1
+2025-01-01,2025,1,ORG003,Pratham Youth Initiative,Books,178,132,69,50,1.0,186,1
+2025-01-01,2025,1,ORG003,Pratham Youth Initiative,Notebooks,356,212,208,190,1.0,420,1
+2025-01-01,2025,1,ORG003,Pratham Youth Initiative,Schoolbags,122,105,35,23,1.0,113,1
+2025-01-01,2025,1,ORG003,Pratham Youth Initiative,Clothing,544,391,348,206,2.2,216,1
+2025-01-01,2025,1,ORG003,Pratham Youth Initiative,Blankets,219,136,64,108,3.8,211,1
+2025-01-01,2025,1,ORG003,Pratham Youth Initiative,Hygiene Products,165,124,65,55,1.1,114,1
+2025-01-01,2025,1,ORG004,Sneha Health & Shelter,Books,97,79,55,22,1.0,101,1
+2025-01-01,2025,1,ORG004,Sneha Health & Shelter,Notebooks,204,117,122,118,1.0,175,1
+2025-01-01,2025,1,ORG004,Sneha Health & Shelter,Schoolbags,65,57,30,8,1.0,39,1
+2025-01-01,2025,1,ORG004,Sneha Health & Shelter,Clothing,682,540,349,150,2.2,244,1
+2025-01-01,2025,1,ORG004,Sneha Health & Shelter,Blankets,474,307,262,181,3.8,295,1
+2025-01-01,2025,1,ORG004,Sneha Health & Shelter,Hygiene Products,291,235,46,75,1.1,344,1
+2025-01-01,2025,1,ORG005,Vidya Jyoti Rural Mission,Books,174,143,92,39,1.0,199,1
+2025-01-01,2025,1,ORG005,Vidya Jyoti Rural Mission,Notebooks,370,215,169,185,1.0,365,1
+2025-01-01,2025,1,ORG005,Vidya Jyoti Rural Mission,Schoolbags,115,66,41,56,1.0,107,1
+2025-01-01,2025,1,ORG005,Vidya Jyoti Rural Mission,Clothing,289,166,180,170,2.2,128,1
+2025-01-01,2025,1,ORG005,Vidya Jyoti Rural Mission,Blankets,415,301,78,150,3.8,363,1
+2025-01-01,2025,1,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,157,108,29,55,1.1,163,1
+2025-01-01,2025,1,ORG006,Karuna Care Society,Books,88,77,49,13,1.0,87,1
+2025-01-01,2025,1,ORG006,Karuna Care Society,Notebooks,173,109,67,80,1.0,193,1
+2025-01-01,2025,1,ORG006,Karuna Care Society,Schoolbags,61,47,20,15,1.0,63,1
+2025-01-01,2025,1,ORG006,Karuna Care Society,Clothing,553,418,207,169,2.2,282,1
+2025-01-01,2025,1,ORG006,Karuna Care Society,Blankets,550,440,149,146,3.8,333,1
+2025-01-01,2025,1,ORG006,Karuna Care Society,Hygiene Products,320,192,131,168,1.1,363,1
+2025-02-01,2025,2,ORG001,Asha Education Foundation,Books,188,112,55,95,1.0,119,1
+2025-02-01,2025,2,ORG001,Asha Education Foundation,Notebooks,320,255,92,67,1.0,278,1
+2025-02-01,2025,2,ORG001,Asha Education Foundation,Schoolbags,130,76,40,62,1.0,85,1
+2025-02-01,2025,2,ORG001,Asha Education Foundation,Clothing,142,117,44,34,1.0,123,1
+2025-02-01,2025,2,ORG001,Asha Education Foundation,Blankets,202,179,68,24,2.5,51,1
+2025-02-01,2025,2,ORG001,Asha Education Foundation,Hygiene Products,160,123,55,47,1.1,200,1
+2025-02-01,2025,2,ORG002,Goonj Seva Trust,Books,109,89,69,28,1.0,90,1
+2025-02-01,2025,2,ORG002,Goonj Seva Trust,Notebooks,156,128,32,35,1.0,162,1
+2025-02-01,2025,2,ORG002,Goonj Seva Trust,Schoolbags,60,44,38,19,1.0,46,1
+2025-02-01,2025,2,ORG002,Goonj Seva Trust,Clothing,208,141,70,68,1.0,246,1
+2025-02-01,2025,2,ORG002,Goonj Seva Trust,Blankets,335,284,188,55,2.5,117,1
+2025-02-01,2025,2,ORG002,Goonj Seva Trust,Hygiene Products,298,186,176,142,1.1,391,1
+2025-02-01,2025,2,ORG003,Pratham Youth Initiative,Books,154,120,34,44,1.0,166,1
+2025-02-01,2025,2,ORG003,Pratham Youth Initiative,Notebooks,391,313,136,84,1.0,232,1
+2025-02-01,2025,2,ORG003,Pratham Youth Initiative,Schoolbags,113,64,38,51,1.0,101,1
+2025-02-01,2025,2,ORG003,Pratham Youth Initiative,Clothing,199,110,113,102,1.0,256,1
+2025-02-01,2025,2,ORG003,Pratham Youth Initiative,Blankets,178,123,71,67,2.5,45,1
+2025-02-01,2025,2,ORG003,Pratham Youth Initiative,Hygiene Products,160,142,61,22,1.1,162,1
+2025-02-01,2025,2,ORG004,Sneha Health & Shelter,Books,84,69,45,18,1.0,89,1
+2025-02-01,2025,2,ORG004,Sneha Health & Shelter,Notebooks,174,97,49,86,1.0,147,1
+2025-02-01,2025,2,ORG004,Sneha Health & Shelter,Schoolbags,62,42,20,20,1.0,58,1
+2025-02-01,2025,2,ORG004,Sneha Health & Shelter,Clothing,282,239,180,43,1.0,211,1
+2025-02-01,2025,2,ORG004,Sneha Health & Shelter,Blankets,361,256,195,122,2.5,102,1
+2025-02-01,2025,2,ORG004,Sneha Health & Shelter,Hygiene Products,297,189,78,129,1.1,305,1
+2025-02-01,2025,2,ORG005,Vidya Jyoti Rural Mission,Books,185,164,33,29,1.0,182,1
+2025-02-01,2025,2,ORG005,Vidya Jyoti Rural Mission,Notebooks,368,249,69,130,1.0,279,1
+2025-02-01,2025,2,ORG005,Vidya Jyoti Rural Mission,Schoolbags,113,93,52,25,1.0,91,1
+2025-02-01,2025,2,ORG005,Vidya Jyoti Rural Mission,Clothing,135,93,63,53,1.0,125,1
+2025-02-01,2025,2,ORG005,Vidya Jyoti Rural Mission,Blankets,320,209,195,132,2.5,84,1
+2025-02-01,2025,2,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,168,101,30,67,1.1,174,1
+2025-02-01,2025,2,ORG006,Karuna Care Society,Books,88,78,19,12,1.0,98,1
+2025-02-01,2025,2,ORG006,Karuna Care Society,Notebooks,179,103,88,84,1.0,116,1
+2025-02-01,2025,2,ORG006,Karuna Care Society,Schoolbags,60,42,25,18,1.0,57,1
+2025-02-01,2025,2,ORG006,Karuna Care Society,Clothing,246,140,63,142,1.0,215,1
+2025-02-01,2025,2,ORG006,Karuna Care Society,Blankets,336,208,212,177,2.5,106,1
+2025-02-01,2025,2,ORG006,Karuna Care Society,Hygiene Products,313,220,88,115,1.1,325,1
+2025-03-01,2025,3,ORG001,Asha Education Foundation,Books,155,96,99,78,0.8,140,1
+2025-03-01,2025,3,ORG001,Asha Education Foundation,Notebooks,278,227,178,54,0.8,297,1
+2025-03-01,2025,3,ORG001,Asha Education Foundation,Schoolbags,115,89,31,33,0.8,93,1
+2025-03-01,2025,3,ORG001,Asha Education Foundation,Clothing,134,97,72,37,1.0,112,1
+2025-03-01,2025,3,ORG001,Asha Education Foundation,Blankets,44,37,14,9,0.7,55,1
+2025-03-01,2025,3,ORG001,Asha Education Foundation,Hygiene Products,159,114,26,57,1.1,145,1
+2025-03-01,2025,3,ORG002,Goonj Seva Trust,Books,75,65,26,14,0.8,72,1
+2025-03-01,2025,3,ORG002,Goonj Seva Trust,Notebooks,120,105,63,21,0.8,116,1
+2025-03-01,2025,3,ORG002,Goonj Seva Trust,Schoolbags,38,24,21,17,0.8,55,1
+2025-03-01,2025,3,ORG002,Goonj Seva Trust,Clothing,294,181,79,155,1.0,215,1
+2025-03-01,2025,3,ORG002,Goonj Seva Trust,Blankets,100,56,26,45,0.7,88,1
+2025-03-01,2025,3,ORG002,Goonj Seva Trust,Hygiene Products,320,282,93,47,1.1,306,1
+2025-03-01,2025,3,ORG003,Pratham Youth Initiative,Books,187,153,76,38,0.8,123,1
+2025-03-01,2025,3,ORG003,Pratham Youth Initiative,Notebooks,303,261,189,49,0.8,268,1
+2025-03-01,2025,3,ORG003,Pratham Youth Initiative,Schoolbags,93,58,37,43,0.8,112,1
+2025-03-01,2025,3,ORG003,Pratham Youth Initiative,Clothing,236,147,136,92,1.0,222,1
+2025-03-01,2025,3,ORG003,Pratham Youth Initiative,Blankets,35,29,19,7,0.7,53,1
+2025-03-01,2025,3,ORG003,Pratham Youth Initiative,Hygiene Products,182,110,87,97,1.1,176,1
+2025-03-01,2025,3,ORG004,Sneha Health & Shelter,Books,62,35,22,28,0.8,81,1
+2025-03-01,2025,3,ORG004,Sneha Health & Shelter,Notebooks,155,138,27,19,0.8,100,1
+2025-03-01,2025,3,ORG004,Sneha Health & Shelter,Schoolbags,43,24,11,25,0.8,43,1
+2025-03-01,2025,3,ORG004,Sneha Health & Shelter,Clothing,289,202,166,98,1.0,278,1
+2025-03-01,2025,3,ORG004,Sneha Health & Shelter,Blankets,114,70,64,51,0.7,88,1
+2025-03-01,2025,3,ORG004,Sneha Health & Shelter,Hygiene Products,367,212,176,189,1.1,248,1
+2025-03-01,2025,3,ORG005,Vidya Jyoti Rural Mission,Books,136,103,73,46,0.8,161,1
+2025-03-01,2025,3,ORG005,Vidya Jyoti Rural Mission,Notebooks,225,184,114,43,0.8,305,1
+2025-03-01,2025,3,ORG005,Vidya Jyoti Rural Mission,Schoolbags,117,103,39,19,0.8,130,1
+2025-03-01,2025,3,ORG005,Vidya Jyoti Rural Mission,Clothing,147,128,56,24,1.0,146,1
+2025-03-01,2025,3,ORG005,Vidya Jyoti Rural Mission,Blankets,107,89,31,19,0.7,105,1
+2025-03-01,2025,3,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,136,116,87,26,1.1,138,1
+2025-03-01,2025,3,ORG006,Karuna Care Society,Books,83,60,52,27,0.8,94,1
+2025-03-01,2025,3,ORG006,Karuna Care Society,Notebooks,151,103,78,48,0.8,135,1
+2025-03-01,2025,3,ORG006,Karuna Care Society,Schoolbags,40,33,20,9,0.8,47,1
+2025-03-01,2025,3,ORG006,Karuna Care Society,Clothing,307,188,178,157,1.0,254,1
+2025-03-01,2025,3,ORG006,Karuna Care Society,Blankets,74,63,16,12,0.7,113,1
+2025-03-01,2025,3,ORG006,Karuna Care Society,Hygiene Products,270,212,158,76,1.1,275,1
+2025-04-01,2025,4,ORG001,Asha Education Foundation,Books,164,138,71,35,0.8,445,1
+2025-04-01,2025,4,ORG001,Asha Education Foundation,Notebooks,280,184,82,110,0.8,901,1
+2025-04-01,2025,4,ORG001,Asha Education Foundation,Schoolbags,78,54,40,25,0.8,377,1
+2025-04-01,2025,4,ORG001,Asha Education Foundation,Clothing,120,95,44,28,1.0,146,1
+2025-04-01,2025,4,ORG001,Asha Education Foundation,Blankets,51,40,32,14,0.7,21,1
+2025-04-01,2025,4,ORG001,Asha Education Foundation,Hygiene Products,139,113,50,27,1.1,172,1
+2025-04-01,2025,4,ORG002,Goonj Seva Trust,Books,69,62,25,7,0.8,244,1
+2025-04-01,2025,4,ORG002,Goonj Seva Trust,Notebooks,121,71,77,58,0.8,509,1
+2025-04-01,2025,4,ORG002,Goonj Seva Trust,Schoolbags,54,36,20,21,0.8,193,1
+2025-04-01,2025,4,ORG002,Goonj Seva Trust,Clothing,228,147,89,90,1.0,233,1
+2025-04-01,2025,4,ORG002,Goonj Seva Trust,Blankets,102,59,46,44,0.7,43,1
+2025-04-01,2025,4,ORG002,Goonj Seva Trust,Hygiene Products,310,235,61,94,1.1,321,1
+2025-04-01,2025,4,ORG003,Pratham Youth Initiative,Books,128,114,20,15,0.8,585,1
+2025-04-01,2025,4,ORG003,Pratham Youth Initiative,Notebooks,318,210,145,120,0.8,1095,1
+2025-04-01,2025,4,ORG003,Pratham Youth Initiative,Schoolbags,106,62,66,47,0.8,344,1
+2025-04-01,2025,4,ORG003,Pratham Youth Initiative,Clothing,246,196,109,64,1.0,262,1
+2025-04-01,2025,4,ORG003,Pratham Youth Initiative,Blankets,50,32,22,21,0.7,22,1
+2025-04-01,2025,4,ORG003,Pratham Youth Initiative,Hygiene Products,160,99,91,77,1.1,172,1
+2025-04-01,2025,4,ORG004,Sneha Health & Shelter,Books,78,63,15,20,0.8,270,1
+2025-04-01,2025,4,ORG004,Sneha Health & Shelter,Notebooks,116,93,43,23,0.8,478,1
+2025-04-01,2025,4,ORG004,Sneha Health & Shelter,Schoolbags,59,37,28,28,0.8,201,1
+2025-04-01,2025,4,ORG004,Sneha Health & Shelter,Clothing,264,168,41,104,1.0,271,1
+2025-04-01,2025,4,ORG004,Sneha Health & Shelter,Blankets,89,63,16,34,0.7,39,1
+2025-04-01,2025,4,ORG004,Sneha Health & Shelter,Hygiene Products,374,330,71,59,1.1,351,1
+2025-04-01,2025,4,ORG005,Vidya Jyoti Rural Mission,Books,161,119,99,45,0.8,562,1
+2025-04-01,2025,4,ORG005,Vidya Jyoti Rural Mission,Notebooks,325,238,169,89,0.8,1056,1
+2025-04-01,2025,4,ORG005,Vidya Jyoti Rural Mission,Schoolbags,103,76,46,30,0.8,324,1
+2025-04-01,2025,4,ORG005,Vidya Jyoti Rural Mission,Clothing,144,119,70,30,1.0,127,1
+2025-04-01,2025,4,ORG005,Vidya Jyoti Rural Mission,Blankets,84,59,42,29,0.7,46,1
+2025-04-01,2025,4,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,172,144,31,31,1.1,166,1
+2025-04-01,2025,4,ORG006,Karuna Care Society,Books,75,54,23,21,0.8,274,1
+2025-04-01,2025,4,ORG006,Karuna Care Society,Notebooks,158,129,32,34,0.8,504,1
+2025-04-01,2025,4,ORG006,Karuna Care Society,Schoolbags,42,25,10,17,0.8,189,1
+2025-04-01,2025,4,ORG006,Karuna Care Society,Clothing,269,225,159,56,1.0,222,1
+2025-04-01,2025,4,ORG006,Karuna Care Society,Blankets,96,61,29,42,0.7,40,1
+2025-04-01,2025,4,ORG006,Karuna Care Society,Hygiene Products,232,195,76,49,1.1,334,1
+2025-05-01,2025,5,ORG001,Asha Education Foundation,Books,567,377,355,217,2.8,517,1
+2025-05-01,2025,5,ORG001,Asha Education Foundation,Notebooks,1059,620,623,508,2.8,979,1
+2025-05-01,2025,5,ORG001,Asha Education Foundation,Schoolbags,340,289,84,65,2.8,453,1
+2025-05-01,2025,5,ORG001,Asha Education Foundation,Clothing,134,94,70,50,1.0,134,1
+2025-05-01,2025,5,ORG001,Asha Education Foundation,Blankets,23,18,6,5,0.3,20,1
+2025-05-01,2025,5,ORG001,Asha Education Foundation,Hygiene Products,164,95,38,70,1.1,197,1
+2025-05-01,2025,5,ORG002,Goonj Seva Trust,Books,252,158,51,114,2.8,234,1
+2025-05-01,2025,5,ORG002,Goonj Seva Trust,Notebooks,419,288,75,143,2.8,542,1
+2025-05-01,2025,5,ORG002,Goonj Seva Trust,Schoolbags,193,135,69,71,2.8,216,1
+2025-05-01,2025,5,ORG002,Goonj Seva Trust,Clothing,286,207,67,92,1.0,286,1
+2025-05-01,2025,5,ORG002,Goonj Seva Trust,Blankets,44,26,18,22,0.3,48,1
+2025-05-01,2025,5,ORG002,Goonj Seva Trust,Hygiene Products,301,238,67,68,1.1,285,1
+2025-05-01,2025,5,ORG003,Pratham Youth Initiative,Books,587,427,148,187,2.8,518,1
+2025-05-01,2025,5,ORG003,Pratham Youth Initiative,Notebooks,970,747,417,284,2.8,888,1
+2025-05-01,2025,5,ORG003,Pratham Youth Initiative,Schoolbags,344,288,195,75,2.8,404,1
+2025-05-01,2025,5,ORG003,Pratham Youth Initiative,Clothing,190,135,104,59,1.0,248,1
+2025-05-01,2025,5,ORG003,Pratham Youth Initiative,Blankets,20,17,7,5,0.3,22,1
+2025-05-01,2025,5,ORG003,Pratham Youth Initiative,Hygiene Products,157,140,66,17,1.1,181,1
+2025-05-01,2025,5,ORG004,Sneha Health & Shelter,Books,255,212,86,50,2.8,283,1
+2025-05-01,2025,5,ORG004,Sneha Health & Shelter,Notebooks,439,299,143,144,2.8,464,1
+2025-05-01,2025,5,ORG004,Sneha Health & Shelter,Schoolbags,160,125,82,45,2.8,127,1
+2025-05-01,2025,5,ORG004,Sneha Health & Shelter,Clothing,247,205,38,55,1.0,318,1
+2025-05-01,2025,5,ORG004,Sneha Health & Shelter,Blankets,39,29,21,13,0.3,43,1
+2025-05-01,2025,5,ORG004,Sneha Health & Shelter,Hygiene Products,342,205,140,174,1.1,338,1
+2025-05-01,2025,5,ORG005,Vidya Jyoti Rural Mission,Books,622,385,146,321,2.8,578,1
+2025-05-01,2025,5,ORG005,Vidya Jyoti Rural Mission,Notebooks,1018,773,539,309,2.8,1004,1
+2025-05-01,2025,5,ORG005,Vidya Jyoti Rural Mission,Schoolbags,340,206,159,159,2.8,371,1
+2025-05-01,2025,5,ORG005,Vidya Jyoti Rural Mission,Clothing,116,77,29,43,1.0,146,1
+2025-05-01,2025,5,ORG005,Vidya Jyoti Rural Mission,Blankets,41,30,25,12,0.3,36,1
+2025-05-01,2025,5,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,167,140,57,34,1.1,153,1
+2025-05-01,2025,5,ORG006,Karuna Care Society,Books,254,163,126,125,2.8,304,1
+2025-05-01,2025,5,ORG006,Karuna Care Society,Notebooks,419,258,119,206,2.8,573,1
+2025-05-01,2025,5,ORG006,Karuna Care Society,Schoolbags,182,142,51,53,2.8,144,1
+2025-05-01,2025,5,ORG006,Karuna Care Society,Clothing,275,160,67,147,1.0,277,1
+2025-05-01,2025,5,ORG006,Karuna Care Society,Blankets,38,24,6,14,0.3,33,1
+2025-05-01,2025,5,ORG006,Karuna Care Society,Hygiene Products,301,170,129,166,1.1,333,1
+2025-06-01,2025,6,ORG001,Asha Education Foundation,Books,577,383,343,264,2.8,405,1
+2025-06-01,2025,6,ORG001,Asha Education Foundation,Notebooks,923,529,405,409,2.8,830,1
+2025-06-01,2025,6,ORG001,Asha Education Foundation,Schoolbags,364,327,211,41,2.8,282,1
+2025-06-01,2025,6,ORG001,Asha Education Foundation,Clothing,130,73,28,65,1.0,198,1
+2025-06-01,2025,6,ORG001,Asha Education Foundation,Blankets,23,18,7,5,0.3,26,1
+2025-06-01,2025,6,ORG001,Asha Education Foundation,Hygiene Products,189,159,32,37,1.1,271,1
+2025-06-01,2025,6,ORG002,Goonj Seva Trust,Books,343,259,200,104,2.8,244,1
+2025-06-01,2025,6,ORG002,Goonj Seva Trust,Notebooks,613,386,211,281,2.8,375,1
+2025-06-01,2025,6,ORG002,Goonj Seva Trust,Schoolbags,180,162,46,25,2.8,102,1
+2025-06-01,2025,6,ORG002,Goonj Seva Trust,Clothing,288,218,146,71,1.0,434,1
+2025-06-01,2025,6,ORG002,Goonj Seva Trust,Blankets,53,36,26,23,0.3,40,1
+2025-06-01,2025,6,ORG002,Goonj Seva Trust,Hygiene Products,314,249,156,82,1.1,412,1
+2025-06-01,2025,6,ORG003,Pratham Youth Initiative,Books,486,369,227,125,2.8,396,1
+2025-06-01,2025,6,ORG003,Pratham Youth Initiative,Notebooks,931,785,450,156,2.8,938,1
+2025-06-01,2025,6,ORG003,Pratham Youth Initiative,Schoolbags,396,329,225,93,2.8,289,1
+2025-06-01,2025,6,ORG003,Pratham Youth Initiative,Clothing,224,135,79,109,1.0,557,1
+2025-06-01,2025,6,ORG003,Pratham Youth Initiative,Blankets,23,17,10,7,0.3,22,1
+2025-06-01,2025,6,ORG003,Pratham Youth Initiative,Hygiene Products,147,126,67,28,1.1,247,1
+2025-06-01,2025,6,ORG004,Sneha Health & Shelter,Books,239,206,139,36,2.8,234,1
+2025-06-01,2025,6,ORG004,Sneha Health & Shelter,Notebooks,452,406,249,47,2.8,446,1
+2025-06-01,2025,6,ORG004,Sneha Health & Shelter,Schoolbags,178,127,113,68,2.8,149,1
+2025-06-01,2025,6,ORG004,Sneha Health & Shelter,Clothing,248,221,46,36,1.0,384,1
+2025-06-01,2025,6,ORG004,Sneha Health & Shelter,Blankets,42,26,8,17,0.3,39,1
+2025-06-01,2025,6,ORG004,Sneha Health & Shelter,Hygiene Products,249,152,50,103,1.1,473,1
+2025-06-01,2025,6,ORG005,Vidya Jyoti Rural Mission,Books,530,440,153,102,2.8,444,1
+2025-06-01,2025,6,ORG005,Vidya Jyoti Rural Mission,Notebooks,859,550,185,353,2.8,700,1
+2025-06-01,2025,6,ORG005,Vidya Jyoti Rural Mission,Schoolbags,315,262,80,56,2.8,268,1
+2025-06-01,2025,6,ORG005,Vidya Jyoti Rural Mission,Clothing,145,84,33,73,1.0,201,1
+2025-06-01,2025,6,ORG005,Vidya Jyoti Rural Mission,Blankets,46,28,25,22,0.3,34,1
+2025-06-01,2025,6,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,140,90,65,60,1.1,252,1
+2025-06-01,2025,6,ORG006,Karuna Care Society,Books,273,229,83,45,2.8,196,1
+2025-06-01,2025,6,ORG006,Karuna Care Society,Notebooks,434,326,222,137,2.8,287,1
+2025-06-01,2025,6,ORG006,Karuna Care Society,Schoolbags,182,134,56,64,2.8,142,1
+2025-06-01,2025,6,ORG006,Karuna Care Society,Clothing,218,176,86,50,1.0,383,1
+2025-06-01,2025,6,ORG006,Karuna Care Society,Blankets,49,42,16,8,0.3,43,1
+2025-06-01,2025,6,ORG006,Karuna Care Society,Hygiene Products,295,175,157,129,1.1,372,1
+2025-07-01,2025,7,ORG001,Asha Education Foundation,Books,516,400,204,127,2.2,229,1
+2025-07-01,2025,7,ORG001,Asha Education Foundation,Notebooks,576,345,277,284,2.2,387,1
+2025-07-01,2025,7,ORG001,Asha Education Foundation,Schoolbags,244,150,63,125,2.2,108,1
+2025-07-01,2025,7,ORG001,Asha Education Foundation,Clothing,220,165,140,58,1.6,206,1
+2025-07-01,2025,7,ORG001,Asha Education Foundation,Blankets,25,15,8,12,0.3,49,1
+2025-07-01,2025,7,ORG001,Asha Education Foundation,Hygiene Products,264,207,63,62,1.7,267,1
+2025-07-01,2025,7,ORG002,Goonj Seva Trust,Books,228,146,63,82,2.2,95,1
+2025-07-01,2025,7,ORG002,Goonj Seva Trust,Notebooks,413,336,191,82,2.2,190,1
+2025-07-01,2025,7,ORG002,Goonj Seva Trust,Schoolbags,102,73,20,40,2.2,58,1
+2025-07-01,2025,7,ORG002,Goonj Seva Trust,Clothing,375,268,227,127,1.6,372,1
+2025-07-01,2025,7,ORG002,Goonj Seva Trust,Blankets,40,28,16,15,0.3,106,1
+2025-07-01,2025,7,ORG002,Goonj Seva Trust,Hygiene Products,555,311,131,264,1.7,467,1
+2025-07-01,2025,7,ORG003,Pratham Youth Initiative,Books,427,371,195,67,2.2,142,1
+2025-07-01,2025,7,ORG003,Pratham Youth Initiative,Notebooks,710,527,119,215,2.2,351,1
+2025-07-01,2025,7,ORG003,Pratham Youth Initiative,Schoolbags,254,180,41,81,2.2,124,1
+2025-07-01,2025,7,ORG003,Pratham Youth Initiative,Clothing,420,257,122,188,1.6,365,1
+2025-07-01,2025,7,ORG003,Pratham Youth Initiative,Blankets,21,12,11,12,0.3,60,1
+2025-07-01,2025,7,ORG003,Pratham Youth Initiative,Hygiene Products,275,241,119,39,1.7,219,1
+2025-07-01,2025,7,ORG004,Sneha Health & Shelter,Books,220,139,118,92,2.2,114,1
+2025-07-01,2025,7,ORG004,Sneha Health & Shelter,Notebooks,423,323,120,127,2.2,186,1
+2025-07-01,2025,7,ORG004,Sneha Health & Shelter,Schoolbags,150,129,94,27,2.2,58,1
+2025-07-01,2025,7,ORG004,Sneha Health & Shelter,Clothing,360,199,227,207,1.6,360,1
+2025-07-01,2025,7,ORG004,Sneha Health & Shelter,Blankets,47,31,30,18,0.3,118,1
+2025-07-01,2025,7,ORG004,Sneha Health & Shelter,Hygiene Products,481,322,135,212,1.7,441,1
+2025-07-01,2025,7,ORG005,Vidya Jyoti Rural Mission,Books,452,263,82,201,2.2,187,1
+2025-07-01,2025,7,ORG005,Vidya Jyoti Rural Mission,Notebooks,669,473,424,235,2.2,363,1
+2025-07-01,2025,7,ORG005,Vidya Jyoti Rural Mission,Schoolbags,257,209,124,62,2.2,96,1
+2025-07-01,2025,7,ORG005,Vidya Jyoti Rural Mission,Clothing,233,190,130,44,1.6,215,1
+2025-07-01,2025,7,ORG005,Vidya Jyoti Rural Mission,Blankets,38,33,13,7,0.3,122,1
+2025-07-01,2025,7,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,244,157,121,94,1.7,270,1
+2025-07-01,2025,7,ORG006,Karuna Care Society,Books,204,172,74,34,2.2,86,1
+2025-07-01,2025,7,ORG006,Karuna Care Society,Notebooks,409,295,120,128,2.2,219,1
+2025-07-01,2025,7,ORG006,Karuna Care Society,Schoolbags,114,67,26,57,2.2,77,1
+2025-07-01,2025,7,ORG006,Karuna Care Society,Clothing,394,308,204,118,1.6,443,1
+2025-07-01,2025,7,ORG006,Karuna Care Society,Blankets,44,38,21,7,0.3,116,1
+2025-07-01,2025,7,ORG006,Karuna Care Society,Hygiene Products,514,386,104,152,1.7,518,1
+2025-08-01,2025,8,ORG001,Asha Education Foundation,Books,226,176,38,61,1.0,206,1
+2025-08-01,2025,8,ORG001,Asha Education Foundation,Notebooks,277,232,172,63,1.0,376,1
+2025-08-01,2025,8,ORG001,Asha Education Foundation,Schoolbags,92,52,16,51,1.0,108,1
+2025-08-01,2025,8,ORG001,Asha Education Foundation,Clothing,173,110,79,78,1.6,129,1
+2025-08-01,2025,8,ORG001,Asha Education Foundation,Blankets,59,42,33,19,0.7,49,1
+2025-08-01,2025,8,ORG001,Asha Education Foundation,Hygiene Products,287,179,90,112,1.7,237,1
+2025-08-01,2025,8,ORG002,Goonj Seva Trust,Books,81,51,46,35,1.0,66,1
+2025-08-01,2025,8,ORG002,Goonj Seva Trust,Notebooks,192,136,66,63,1.0,192,1
+2025-08-01,2025,8,ORG002,Goonj Seva Trust,Schoolbags,63,35,26,33,1.0,65,1
+2025-08-01,2025,8,ORG002,Goonj Seva Trust,Clothing,352,313,168,48,1.6,246,1
+2025-08-01,2025,8,ORG002,Goonj Seva Trust,Blankets,96,57,34,49,0.7,103,1
+2025-08-01,2025,8,ORG002,Goonj Seva Trust,Hygiene Products,499,336,94,199,1.7,518,1
+2025-08-01,2025,8,ORG003,Pratham Youth Initiative,Books,218,167,121,59,1.0,184,1
+2025-08-01,2025,8,ORG003,Pratham Youth Initiative,Notebooks,331,230,108,128,1.0,340,1
+2025-08-01,2025,8,ORG003,Pratham Youth Initiative,Schoolbags,112,69,39,46,1.0,123,1
+2025-08-01,2025,8,ORG003,Pratham Youth Initiative,Clothing,350,261,206,97,1.6,247,1
+2025-08-01,2025,8,ORG003,Pratham Youth Initiative,Blankets,63,40,40,31,0.7,52,1
+2025-08-01,2025,8,ORG003,Pratham Youth Initiative,Hygiene Products,294,239,103,67,1.7,296,1
+2025-08-01,2025,8,ORG004,Sneha Health & Shelter,Books,90,75,46,16,1.0,121,1
+2025-08-01,2025,8,ORG004,Sneha Health & Shelter,Notebooks,185,130,106,63,1.0,209,1
+2025-08-01,2025,8,ORG004,Sneha Health & Shelter,Schoolbags,60,43,34,20,1.0,64,1
+2025-08-01,2025,8,ORG004,Sneha Health & Shelter,Clothing,441,249,138,213,1.6,202,1
+2025-08-01,2025,8,ORG004,Sneha Health & Shelter,Blankets,99,66,51,42,0.7,106,1
+2025-08-01,2025,8,ORG004,Sneha Health & Shelter,Hygiene Products,567,508,160,60,1.7,461,1
+2025-08-01,2025,8,ORG005,Vidya Jyoti Rural Mission,Books,229,136,113,128,1.0,216,1
+2025-08-01,2025,8,ORG005,Vidya Jyoti Rural Mission,Notebooks,370,243,97,155,1.0,303,1
+2025-08-01,2025,8,ORG005,Vidya Jyoti Rural Mission,Schoolbags,103,72,24,40,1.0,116,1
+2025-08-01,2025,8,ORG005,Vidya Jyoti Rural Mission,Clothing,190,149,30,51,1.6,129,1
+2025-08-01,2025,8,ORG005,Vidya Jyoti Rural Mission,Blankets,95,80,15,21,0.7,93,1
+2025-08-01,2025,8,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,241,211,141,35,1.7,238,1
+2025-08-01,2025,8,ORG006,Karuna Care Society,Books,76,57,12,19,1.0,115,1
+2025-08-01,2025,8,ORG006,Karuna Care Society,Notebooks,167,126,28,48,1.0,204,1
+2025-08-01,2025,8,ORG006,Karuna Care Society,Schoolbags,62,49,18,14,1.0,65,1
+2025-08-01,2025,8,ORG006,Karuna Care Society,Clothing,396,225,168,200,1.6,280,1
+2025-08-01,2025,8,ORG006,Karuna Care Society,Blankets,106,67,28,52,0.7,106,1
+2025-08-01,2025,8,ORG006,Karuna Care Society,Hygiene Products,372,215,218,170,1.7,453,1
+2025-09-01,2025,9,ORG001,Asha Education Foundation,Books,125,86,40,47,1.0,257,1
+2025-09-01,2025,9,ORG001,Asha Education Foundation,Notebooks,362,295,200,71,1.0,423,1
+2025-09-01,2025,9,ORG001,Asha Education Foundation,Schoolbags,113,78,37,45,1.0,154,1
+2025-09-01,2025,9,ORG001,Asha Education Foundation,Clothing,157,122,39,39,1.0,178,1
+2025-09-01,2025,9,ORG001,Asha Education Foundation,Blankets,46,29,16,22,0.7,47,1
+2025-09-01,2025,9,ORG001,Asha Education Foundation,Hygiene Products,269,185,151,89,1.7,183,1
+2025-09-01,2025,9,ORG002,Goonj Seva Trust,Books,90,58,44,33,1.0,161,1
+2025-09-01,2025,9,ORG002,Goonj Seva Trust,Notebooks,195,166,86,32,1.0,289,1
+2025-09-01,2025,9,ORG002,Goonj Seva Trust,Schoolbags,79,55,28,27,1.0,81,1
+2025-09-01,2025,9,ORG002,Goonj Seva Trust,Clothing,291,255,73,46,1.0,394,1
+2025-09-01,2025,9,ORG002,Goonj Seva Trust,Blankets,103,57,56,61,0.7,116,1
+2025-09-01,2025,9,ORG002,Goonj Seva Trust,Hygiene Products,528,450,146,81,1.7,290,1
+2025-09-01,2025,9,ORG003,Pratham Youth Initiative,Books,213,168,66,56,1.0,284,1
+2025-09-01,2025,9,ORG003,Pratham Youth Initiative,Notebooks,420,294,184,140,1.0,548,1
+2025-09-01,2025,9,ORG003,Pratham Youth Initiative,Schoolbags,109,69,54,50,1.0,183,1
+2025-09-01,2025,9,ORG003,Pratham Youth Initiative,Clothing,231,138,42,116,1.0,417,1
+2025-09-01,2025,9,ORG003,Pratham Youth Initiative,Blankets,47,41,18,7,0.7,60,1
+2025-09-01,2025,9,ORG003,Pratham Youth Initiative,Hygiene Products,243,156,46,88,1.7,164,1
+2025-09-01,2025,9,ORG004,Sneha Health & Shelter,Books,86,53,36,37,1.0,171,1
+2025-09-01,2025,9,ORG004,Sneha Health & Shelter,Notebooks,187,161,33,32,1.0,258,1
+2025-09-01,2025,9,ORG004,Sneha Health & Shelter,Schoolbags,62,36,11,32,1.0,117,1
+2025-09-01,2025,9,ORG004,Sneha Health & Shelter,Clothing,275,165,97,141,1.0,373,1
+2025-09-01,2025,9,ORG004,Sneha Health & Shelter,Blankets,103,89,51,18,0.7,78,1
+2025-09-01,2025,9,ORG004,Sneha Health & Shelter,Hygiene Products,559,365,348,194,1.7,361,1
+2025-09-01,2025,9,ORG005,Vidya Jyoti Rural Mission,Books,172,133,83,48,1.0,246,1
+2025-09-01,2025,9,ORG005,Vidya Jyoti Rural Mission,Notebooks,401,269,172,139,1.0,420,1
+2025-09-01,2025,9,ORG005,Vidya Jyoti Rural Mission,Schoolbags,123,85,25,49,1.0,181,1
+2025-09-01,2025,9,ORG005,Vidya Jyoti Rural Mission,Clothing,126,101,19,29,1.0,206,1
+2025-09-01,2025,9,ORG005,Vidya Jyoti Rural Mission,Blankets,115,86,72,35,0.7,103,1
+2025-09-01,2025,9,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,256,195,87,70,1.7,148,1
+2025-09-01,2025,9,ORG006,Karuna Care Society,Books,95,55,29,43,1.0,136,1
+2025-09-01,2025,9,ORG006,Karuna Care Society,Notebooks,181,155,75,36,1.0,264,1
+2025-09-01,2025,9,ORG006,Karuna Care Society,Schoolbags,72,47,23,29,1.0,91,1
+2025-09-01,2025,9,ORG006,Karuna Care Society,Clothing,293,175,90,148,1.0,437,1
+2025-09-01,2025,9,ORG006,Karuna Care Society,Blankets,103,82,51,27,0.7,89,1
+2025-09-01,2025,9,ORG006,Karuna Care Society,Hygiene Products,489,375,252,123,1.7,358,1
+2025-10-01,2025,10,ORG001,Asha Education Foundation,Books,337,208,194,135,1.4,237,1
+2025-10-01,2025,10,ORG001,Asha Education Foundation,Notebooks,645,374,271,277,1.4,456,1
+2025-10-01,2025,10,ORG001,Asha Education Foundation,Schoolbags,172,109,73,79,1.4,150,1
+2025-10-01,2025,10,ORG001,Asha Education Foundation,Clothing,246,162,68,105,1.5,199,1
+2025-10-01,2025,10,ORG001,Asha Education Foundation,Blankets,62,48,21,17,0.7,200,1
+2025-10-01,2025,10,ORG001,Asha Education Foundation,Hygiene Products,176,119,75,78,1.1,146,1
+2025-10-01,2025,10,ORG002,Goonj Seva Trust,Books,122,84,60,49,1.4,160,1
+2025-10-01,2025,10,ORG002,Goonj Seva Trust,Notebooks,186,119,115,70,1.4,220,1
+2025-10-01,2025,10,ORG002,Goonj Seva Trust,Schoolbags,91,52,31,44,1.4,88,1
+2025-10-01,2025,10,ORG002,Goonj Seva Trust,Clothing,327,294,157,39,1.5,386,1
+2025-10-01,2025,10,ORG002,Goonj Seva Trust,Blankets,87,75,18,14,0.7,288,1
+2025-10-01,2025,10,ORG002,Goonj Seva Trust,Hygiene Products,378,294,140,86,1.1,275,1
+2025-10-01,2025,10,ORG003,Pratham Youth Initiative,Books,282,202,64,99,1.4,274,1
+2025-10-01,2025,10,ORG003,Pratham Youth Initiative,Notebooks,387,230,123,182,1.4,583,1
+2025-10-01,2025,10,ORG003,Pratham Youth Initiative,Schoolbags,178,102,45,93,1.4,154,1
+2025-10-01,2025,10,ORG003,Pratham Youth Initiative,Clothing,430,288,189,188,1.5,397,1
+2025-10-01,2025,10,ORG003,Pratham Youth Initiative,Blankets,47,41,20,7,0.7,189,1
+2025-10-01,2025,10,ORG003,Pratham Youth Initiative,Hygiene Products,149,105,34,54,1.1,156,1
+2025-10-01,2025,10,ORG004,Sneha Health & Shelter,Books,148,86,84,74,1.4,164,1
+2025-10-01,2025,10,ORG004,Sneha Health & Shelter,Notebooks,289,187,157,140,1.4,269,1
+2025-10-01,2025,10,ORG004,Sneha Health & Shelter,Schoolbags,92,81,41,14,1.4,61,1
+2025-10-01,2025,10,ORG004,Sneha Health & Shelter,Clothing,448,250,280,276,1.5,382,1
+2025-10-01,2025,10,ORG004,Sneha Health & Shelter,Blankets,93,72,34,24,0.7,344,1
+2025-10-01,2025,10,ORG004,Sneha Health & Shelter,Hygiene Products,322,220,194,111,1.1,295,1
+2025-10-01,2025,10,ORG005,Vidya Jyoti Rural Mission,Books,250,210,140,49,1.4,267,1
+2025-10-01,2025,10,ORG005,Vidya Jyoti Rural Mission,Notebooks,561,471,240,113,1.4,461,1
+2025-10-01,2025,10,ORG005,Vidya Jyoti Rural Mission,Schoolbags,178,158,64,24,1.4,196,1
+2025-10-01,2025,10,ORG005,Vidya Jyoti Rural Mission,Clothing,167,125,77,45,1.5,211,1
+2025-10-01,2025,10,ORG005,Vidya Jyoti Rural Mission,Blankets,103,76,55,29,0.7,335,1
+2025-10-01,2025,10,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,152,92,56,64,1.1,169,1
+2025-10-01,2025,10,ORG006,Karuna Care Society,Books,131,90,23,49,1.4,119,1
+2025-10-01,2025,10,ORG006,Karuna Care Society,Notebooks,182,109,104,88,1.4,245,1
+2025-10-01,2025,10,ORG006,Karuna Care Society,Schoolbags,105,78,62,37,1.4,107,1
+2025-10-01,2025,10,ORG006,Karuna Care Society,Clothing,482,425,83,76,1.5,413,1
+2025-10-01,2025,10,ORG006,Karuna Care Society,Blankets,95,56,22,41,0.7,352,1
+2025-10-01,2025,10,ORG006,Karuna Care Society,Hygiene Products,255,229,84,33,1.1,323,1
+2025-11-01,2025,11,ORG001,Asha Education Foundation,Books,301,166,57,171,1.4,144,1
+2025-11-01,2025,11,ORG001,Asha Education Foundation,Notebooks,429,298,169,132,1.4,429,1
+2025-11-01,2025,11,ORG001,Asha Education Foundation,Schoolbags,148,131,29,21,1.4,113,1
+2025-11-01,2025,11,ORG001,Asha Education Foundation,Clothing,177,112,61,68,1.5,333,1
+2025-11-01,2025,11,ORG001,Asha Education Foundation,Blankets,198,147,97,61,2.5,266,1
+2025-11-01,2025,11,ORG001,Asha Education Foundation,Hygiene Products,147,132,80,16,1.1,139,1
+2025-11-01,2025,11,ORG002,Goonj Seva Trust,Books,140,97,37,50,1.4,101,1
+2025-11-01,2025,11,ORG002,Goonj Seva Trust,Notebooks,237,165,122,89,1.4,207,1
+2025-11-01,2025,11,ORG002,Goonj Seva Trust,Schoolbags,92,53,54,50,1.4,66,1
+2025-11-01,2025,11,ORG002,Goonj Seva Trust,Clothing,374,258,159,140,1.5,494,1
+2025-11-01,2025,11,ORG002,Goonj Seva Trust,Blankets,319,193,69,174,2.5,658,1
+2025-11-01,2025,11,ORG002,Goonj Seva Trust,Hygiene Products,370,258,145,128,1.1,274,1
+2025-11-01,2025,11,ORG003,Pratham Youth Initiative,Books,318,227,73,111,1.4,236,1
+2025-11-01,2025,11,ORG003,Pratham Youth Initiative,Notebooks,412,230,215,208,1.4,368,1
+2025-11-01,2025,11,ORG003,Pratham Youth Initiative,Schoolbags,175,139,49,44,1.4,142,1
+2025-11-01,2025,11,ORG003,Pratham Youth Initiative,Clothing,416,300,189,122,1.5,623,1
+2025-11-01,2025,11,ORG003,Pratham Youth Initiative,Blankets,175,128,79,52,2.5,231,1
+2025-11-01,2025,11,ORG003,Pratham Youth Initiative,Hygiene Products,164,132,48,32,1.1,160,1
+2025-11-01,2025,11,ORG004,Sneha Health & Shelter,Books,150,107,36,45,1.4,101,1
+2025-11-01,2025,11,ORG004,Sneha Health & Shelter,Notebooks,282,207,100,102,1.4,230,1
+2025-11-01,2025,11,ORG004,Sneha Health & Shelter,Schoolbags,90,68,54,29,1.4,70,1
+2025-11-01,2025,11,ORG004,Sneha Health & Shelter,Clothing,458,344,278,122,1.5,537,1
+2025-11-01,2025,11,ORG004,Sneha Health & Shelter,Blankets,325,214,89,136,2.5,508,1
+2025-11-01,2025,11,ORG004,Sneha Health & Shelter,Hygiene Products,259,150,119,113,1.1,390,1
+2025-11-01,2025,11,ORG005,Vidya Jyoti Rural Mission,Books,272,177,70,110,1.4,163,1
+2025-11-01,2025,11,ORG005,Vidya Jyoti Rural Mission,Notebooks,574,503,315,72,1.4,404,1
+2025-11-01,2025,11,ORG005,Vidya Jyoti Rural Mission,Schoolbags,215,169,104,63,1.4,99,1
+2025-11-01,2025,11,ORG005,Vidya Jyoti Rural Mission,Clothing,215,136,38,107,1.5,280,1
+2025-11-01,2025,11,ORG005,Vidya Jyoti Rural Mission,Blankets,326,277,71,59,2.5,503,1
+2025-11-01,2025,11,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,142,116,75,29,1.1,180,1
+2025-11-01,2025,11,ORG006,Karuna Care Society,Books,117,91,75,36,1.4,95,1
+2025-11-01,2025,11,ORG006,Karuna Care Society,Notebooks,287,227,153,83,1.4,168,1
+2025-11-01,2025,11,ORG006,Karuna Care Society,Schoolbags,77,62,37,18,1.4,60,1
+2025-11-01,2025,11,ORG006,Karuna Care Society,Clothing,386,270,118,146,1.5,467,1
+2025-11-01,2025,11,ORG006,Karuna Care Society,Blankets,325,209,115,125,2.5,601,1
+2025-11-01,2025,11,ORG006,Karuna Care Society,Hygiene Products,322,262,108,82,1.1,322,1
+2025-12-01,2025,12,ORG001,Asha Education Foundation,Books,185,126,116,67,1.0,211,1
+2025-12-01,2025,12,ORG001,Asha Education Foundation,Notebooks,353,225,72,144,1.0,338,1
+2025-12-01,2025,12,ORG001,Asha Education Foundation,Schoolbags,124,105,37,26,1.0,130,1
+2025-12-01,2025,12,ORG001,Asha Education Foundation,Clothing,273,240,135,42,2.2,322,1
+2025-12-01,2025,12,ORG001,Asha Education Foundation,Blankets,285,208,135,81,3.8,224,1
+2025-12-01,2025,12,ORG001,Asha Education Foundation,Hygiene Products,184,110,107,102,1.1,160,1
+2025-12-01,2025,12,ORG002,Goonj Seva Trust,Books,114,95,60,26,1.0,89,1
+2025-12-01,2025,12,ORG002,Goonj Seva Trust,Notebooks,201,160,43,53,1.0,182,1
+2025-12-01,2025,12,ORG002,Goonj Seva Trust,Schoolbags,54,33,32,21,1.0,72,1
+2025-12-01,2025,12,ORG002,Goonj Seva Trust,Clothing,553,378,318,187,2.2,722,1
+2025-12-01,2025,12,ORG002,Goonj Seva Trust,Blankets,562,451,137,134,3.8,662,1
+2025-12-01,2025,12,ORG002,Goonj Seva Trust,Hygiene Products,286,240,161,59,1.1,426,1
+2025-12-01,2025,12,ORG003,Pratham Youth Initiative,Books,221,190,73,40,1.0,228,1
+2025-12-01,2025,12,ORG003,Pratham Youth Initiative,Notebooks,345,195,205,208,1.0,330,1
+2025-12-01,2025,12,ORG003,Pratham Youth Initiative,Schoolbags,136,87,39,67,1.0,148,1
+2025-12-01,2025,12,ORG003,Pratham Youth Initiative,Clothing,634,380,220,255,2.2,541,1
+2025-12-01,2025,12,ORG003,Pratham Youth Initiative,Blankets,299,202,100,110,3.8,300,1
+2025-12-01,2025,12,ORG003,Pratham Youth Initiative,Hygiene Products,111,81,65,36,1.1,192,1
+2025-12-01,2025,12,ORG004,Sneha Health & Shelter,Books,98,74,47,28,1.0,103,1
+2025-12-01,2025,12,ORG004,Sneha Health & Shelter,Notebooks,214,179,53,44,1.0,183,1
+2025-12-01,2025,12,ORG004,Sneha Health & Shelter,Schoolbags,53,43,15,12,1.0,47,1
+2025-12-01,2025,12,ORG004,Sneha Health & Shelter,Clothing,627,440,406,256,2.2,474,1
+2025-12-01,2025,12,ORG004,Sneha Health & Shelter,Blankets,520,362,131,172,3.8,565,1
+2025-12-01,2025,12,ORG004,Sneha Health & Shelter,Hygiene Products,337,200,79,141,1.1,361,1
+2025-12-01,2025,12,ORG005,Vidya Jyoti Rural Mission,Books,201,119,73,99,1.0,206,1
+2025-12-01,2025,12,ORG005,Vidya Jyoti Rural Mission,Notebooks,302,242,139,63,1.0,305,1
+2025-12-01,2025,12,ORG005,Vidya Jyoti Rural Mission,Schoolbags,139,98,45,52,1.0,120,1
+2025-12-01,2025,12,ORG005,Vidya Jyoti Rural Mission,Clothing,333,184,194,195,2.2,308,1
+2025-12-01,2025,12,ORG005,Vidya Jyoti Rural Mission,Blankets,569,509,223,78,3.8,575,1
+2025-12-01,2025,12,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,170,145,110,26,1.1,139,1
+2025-12-01,2025,12,ORG006,Karuna Care Society,Books,88,61,14,30,1.0,121,1
+2025-12-01,2025,12,ORG006,Karuna Care Society,Notebooks,172,95,97,86,1.0,216,1
+2025-12-01,2025,12,ORG006,Karuna Care Society,Schoolbags,57,35,10,27,1.0,59,1
+2025-12-01,2025,12,ORG006,Karuna Care Society,Clothing,522,447,177,102,2.2,475,1
+2025-12-01,2025,12,ORG006,Karuna Care Society,Blankets,413,365,84,49,3.8,571,1
+2025-12-01,2025,12,ORG006,Karuna Care Society,Hygiene Products,278,169,86,143,1.1,291,1
+2026-01-01,2026,1,ORG001,Asha Education Foundation,Books,210,121,45,121,1.0,181,1
+2026-01-01,2026,1,ORG001,Asha Education Foundation,Notebooks,392,226,166,229,1.0,351,1
+2026-01-01,2026,1,ORG001,Asha Education Foundation,Schoolbags,135,115,32,20,1.0,120,1
+2026-01-01,2026,1,ORG001,Asha Education Foundation,Clothing,365,317,225,64,2.2,141,1
+2026-01-01,2026,1,ORG001,Asha Education Foundation,Blankets,292,190,85,117,3.8,202,1
+2026-01-01,2026,1,ORG001,Asha Education Foundation,Hygiene Products,192,152,44,43,1.1,127,1
+2026-01-01,2026,1,ORG002,Goonj Seva Trust,Books,105,85,58,25,1.0,80,1
+2026-01-01,2026,1,ORG002,Goonj Seva Trust,Notebooks,196,134,38,72,1.0,165,1
+2026-01-01,2026,1,ORG002,Goonj Seva Trust,Schoolbags,62,43,15,26,1.0,65,1
+2026-01-01,2026,1,ORG002,Goonj Seva Trust,Clothing,622,556,127,76,2.2,252,1
+2026-01-01,2026,1,ORG002,Goonj Seva Trust,Blankets,530,327,246,215,3.8,434,1
+2026-01-01,2026,1,ORG002,Goonj Seva Trust,Hygiene Products,345,198,191,167,1.1,369,1
+2026-01-01,2026,1,ORG003,Pratham Youth Initiative,Books,227,137,74,111,1.0,168,1
+2026-01-01,2026,1,ORG003,Pratham Youth Initiative,Notebooks,351,217,76,147,1.0,424,1
+2026-01-01,2026,1,ORG003,Pratham Youth Initiative,Schoolbags,141,112,64,33,1.0,106,1
+2026-01-01,2026,1,ORG003,Pratham Youth Initiative,Clothing,559,464,215,102,2.2,288,1
+2026-01-01,2026,1,ORG003,Pratham Youth Initiative,Blankets,345,273,56,81,3.8,170,1
+2026-01-01,2026,1,ORG003,Pratham Youth Initiative,Hygiene Products,176,121,48,57,1.1,161,1
+2026-01-01,2026,1,ORG004,Sneha Health & Shelter,Books,99,86,19,13,1.0,95,1
+2026-01-01,2026,1,ORG004,Sneha Health & Shelter,Notebooks,167,146,51,22,1.0,191,1
+2026-01-01,2026,1,ORG004,Sneha Health & Shelter,Schoolbags,68,51,40,21,1.0,79,1
+2026-01-01,2026,1,ORG004,Sneha Health & Shelter,Clothing,560,372,341,216,2.2,256,1
+2026-01-01,2026,1,ORG004,Sneha Health & Shelter,Blankets,525,424,329,125,3.8,434,1
+2026-01-01,2026,1,ORG004,Sneha Health & Shelter,Hygiene Products,324,263,85,83,1.1,267,1
+2026-01-01,2026,1,ORG005,Vidya Jyoti Rural Mission,Books,158,112,100,55,1.0,181,1
+2026-01-01,2026,1,ORG005,Vidya Jyoti Rural Mission,Notebooks,402,328,175,98,1.0,360,1
+2026-01-01,2026,1,ORG005,Vidya Jyoti Rural Mission,Schoolbags,114,77,65,49,1.0,98,1
+2026-01-01,2026,1,ORG005,Vidya Jyoti Rural Mission,Clothing,313,260,163,71,2.2,149,1
+2026-01-01,2026,1,ORG005,Vidya Jyoti Rural Mission,Blankets,538,423,189,136,3.8,374,1
+2026-01-01,2026,1,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,157,97,73,78,1.1,200,1
+2026-01-01,2026,1,ORG006,Karuna Care Society,Books,87,71,26,19,1.0,108,1
+2026-01-01,2026,1,ORG006,Karuna Care Society,Notebooks,171,125,102,59,1.0,133,1
+2026-01-01,2026,1,ORG006,Karuna Care Society,Schoolbags,63,39,13,24,1.0,53,1
+2026-01-01,2026,1,ORG006,Karuna Care Society,Clothing,647,481,368,176,2.2,232,1
+2026-01-01,2026,1,ORG006,Karuna Care Society,Blankets,623,510,321,157,3.8,450,1
+2026-01-01,2026,1,ORG006,Karuna Care Society,Hygiene Products,259,149,123,149,1.1,369,1
+2026-02-01,2026,2,ORG001,Asha Education Foundation,Books,194,147,108,54,1.0,147,1
+2026-02-01,2026,2,ORG001,Asha Education Foundation,Notebooks,424,362,136,64,1.0,295,1
+2026-02-01,2026,2,ORG001,Asha Education Foundation,Schoolbags,135,95,33,43,1.0,107,1
+2026-02-01,2026,2,ORG001,Asha Education Foundation,Clothing,145,90,68,60,1.0,171,1
+2026-02-01,2026,2,ORG001,Asha Education Foundation,Blankets,194,165,83,37,2.5,54,1
+2026-02-01,2026,2,ORG001,Asha Education Foundation,Hygiene Products,185,162,94,28,1.1,172,1
+2026-02-01,2026,2,ORG002,Goonj Seva Trust,Books,97,71,29,32,1.0,88,1
+2026-02-01,2026,2,ORG002,Goonj Seva Trust,Notebooks,166,127,56,54,1.0,161,1
+2026-02-01,2026,2,ORG002,Goonj Seva Trust,Schoolbags,68,51,36,18,1.0,54,1
+2026-02-01,2026,2,ORG002,Goonj Seva Trust,Clothing,306,221,138,103,1.0,320,1
+2026-02-01,2026,2,ORG002,Goonj Seva Trust,Blankets,391,325,97,71,2.5,80,1
+2026-02-01,2026,2,ORG002,Goonj Seva Trust,Hygiene Products,329,231,158,109,1.1,302,1
+2026-02-01,2026,2,ORG003,Pratham Youth Initiative,Books,155,135,96,24,1.0,177,1
+2026-02-01,2026,2,ORG003,Pratham Youth Initiative,Notebooks,424,304,71,136,1.0,267,1
+2026-02-01,2026,2,ORG003,Pratham Youth Initiative,Schoolbags,152,88,60,89,1.0,106,1
+2026-02-01,2026,2,ORG003,Pratham Youth Initiative,Clothing,348,250,93,115,1.0,283,1
+2026-02-01,2026,2,ORG003,Pratham Youth Initiative,Blankets,185,134,46,67,2.5,59,1
+2026-02-01,2026,2,ORG003,Pratham Youth Initiative,Hygiene Products,175,98,37,79,1.1,159,1
+2026-02-01,2026,2,ORG004,Sneha Health & Shelter,Books,104,67,59,43,1.0,78,1
+2026-02-01,2026,2,ORG004,Sneha Health & Shelter,Notebooks,191,143,84,54,1.0,144,1
+2026-02-01,2026,2,ORG004,Sneha Health & Shelter,Schoolbags,60,35,20,33,1.0,51,1
+2026-02-01,2026,2,ORG004,Sneha Health & Shelter,Clothing,279,181,140,123,1.0,304,1
+2026-02-01,2026,2,ORG004,Sneha Health & Shelter,Blankets,328,213,173,130,2.5,70,1
+2026-02-01,2026,2,ORG004,Sneha Health & Shelter,Hygiene Products,370,274,168,106,1.1,334,1
+2026-02-01,2026,2,ORG005,Vidya Jyoti Rural Mission,Books,225,164,97,63,1.0,154,1
+2026-02-01,2026,2,ORG005,Vidya Jyoti Rural Mission,Notebooks,433,342,82,125,1.0,240,1
+2026-02-01,2026,2,ORG005,Vidya Jyoti Rural Mission,Schoolbags,111,91,49,23,1.0,104,1
+2026-02-01,2026,2,ORG005,Vidya Jyoti Rural Mission,Clothing,145,111,87,36,1.0,154,1
+2026-02-01,2026,2,ORG005,Vidya Jyoti Rural Mission,Blankets,335,273,202,79,2.5,99,1
+2026-02-01,2026,2,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,154,110,81,48,1.1,161,1
+2026-02-01,2026,2,ORG006,Karuna Care Society,Books,99,71,31,30,1.0,85,1
+2026-02-01,2026,2,ORG006,Karuna Care Society,Notebooks,186,130,99,69,1.0,147,1
+2026-02-01,2026,2,ORG006,Karuna Care Society,Schoolbags,76,44,45,39,1.0,51,1
+2026-02-01,2026,2,ORG006,Karuna Care Society,Clothing,264,158,149,146,1.0,296,1
+2026-02-01,2026,2,ORG006,Karuna Care Society,Blankets,330,213,204,133,2.5,125,1
+2026-02-01,2026,2,ORG006,Karuna Care Society,Hygiene Products,375,233,231,187,1.1,366,1
+2026-03-01,2026,3,ORG001,Asha Education Foundation,Books,160,104,55,63,0.8,164,1
+2026-03-01,2026,3,ORG001,Asha Education Foundation,Notebooks,341,291,125,54,0.8,281,1
+2026-03-01,2026,3,ORG001,Asha Education Foundation,Schoolbags,116,88,40,33,0.8,92,1
+2026-03-01,2026,3,ORG001,Asha Education Foundation,Clothing,126,83,23,51,1.0,153,1
+2026-03-01,2026,3,ORG001,Asha Education Foundation,Blankets,52,30,18,27,0.7,48,1
+2026-03-01,2026,3,ORG001,Asha Education Foundation,Hygiene Products,208,165,75,50,1.1,195,1
+2026-03-01,2026,3,ORG002,Goonj Seva Trust,Books,82,64,41,18,0.8,84,1
+2026-03-01,2026,3,ORG002,Goonj Seva Trust,Notebooks,157,114,57,59,0.8,154,1
+2026-03-01,2026,3,ORG002,Goonj Seva Trust,Schoolbags,56,48,31,9,0.8,63,1
+2026-03-01,2026,3,ORG002,Goonj Seva Trust,Clothing,194,154,123,41,1.0,255,1
+2026-03-01,2026,3,ORG002,Goonj Seva Trust,Blankets,106,79,20,32,0.7,121,1
+2026-03-01,2026,3,ORG002,Goonj Seva Trust,Hygiene Products,325,242,183,85,1.1,349,1
+2026-03-01,2026,3,ORG003,Pratham Youth Initiative,Books,163,116,48,63,0.8,172,1
+2026-03-01,2026,3,ORG003,Pratham Youth Initiative,Notebooks,264,173,57,119,0.8,277,1
+2026-03-01,2026,3,ORG003,Pratham Youth Initiative,Schoolbags,83,55,19,39,0.8,100,1
+2026-03-01,2026,3,ORG003,Pratham Youth Initiative,Clothing,228,162,136,85,1.0,269,1
+2026-03-01,2026,3,ORG003,Pratham Youth Initiative,Blankets,57,35,17,22,0.7,52,1
+2026-03-01,2026,3,ORG003,Pratham Youth Initiative,Hygiene Products,171,120,77,52,1.1,151,1
+2026-03-01,2026,3,ORG004,Sneha Health & Shelter,Books,88,65,32,27,0.8,87,1
+2026-03-01,2026,3,ORG004,Sneha Health & Shelter,Notebooks,171,114,102,71,0.8,150,1
+2026-03-01,2026,3,ORG004,Sneha Health & Shelter,Schoolbags,34,30,10,5,0.8,56,1
+2026-03-01,2026,3,ORG004,Sneha Health & Shelter,Clothing,217,150,63,94,1.0,291,1
+2026-03-01,2026,3,ORG004,Sneha Health & Shelter,Blankets,108,65,21,51,0.7,99,1
+2026-03-01,2026,3,ORG004,Sneha Health & Shelter,Hygiene Products,267,155,82,126,1.1,339,1
+2026-03-01,2026,3,ORG005,Vidya Jyoti Rural Mission,Books,178,98,108,106,0.8,127,1
+2026-03-01,2026,3,ORG005,Vidya Jyoti Rural Mission,Notebooks,286,202,80,107,0.8,299,1
+2026-03-01,2026,3,ORG005,Vidya Jyoti Rural Mission,Schoolbags,106,73,44,35,0.8,80,1
+2026-03-01,2026,3,ORG005,Vidya Jyoti Rural Mission,Clothing,182,135,48,60,1.0,140,1
+2026-03-01,2026,3,ORG005,Vidya Jyoti Rural Mission,Blankets,110,75,50,46,0.7,107,1
+2026-03-01,2026,3,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,165,116,53,64,1.1,150,1
+2026-03-01,2026,3,ORG006,Karuna Care Society,Books,99,66,43,44,0.8,83,1
+2026-03-01,2026,3,ORG006,Karuna Care Society,Notebooks,140,90,56,50,0.8,141,1
+2026-03-01,2026,3,ORG006,Karuna Care Society,Schoolbags,54,48,20,7,0.8,67,1
+2026-03-01,2026,3,ORG006,Karuna Care Society,Clothing,305,244,135,70,1.0,278,1
+2026-03-01,2026,3,ORG006,Karuna Care Society,Blankets,105,90,36,16,0.7,95,1
+2026-03-01,2026,3,ORG006,Karuna Care Society,Hygiene Products,305,271,182,40,1.1,286,1
+2026-04-01,2026,4,ORG001,Asha Education Foundation,Books,169,109,83,78,0.8,434,1
+2026-04-01,2026,4,ORG001,Asha Education Foundation,Notebooks,242,175,74,76,0.8,894,1
+2026-04-01,2026,4,ORG001,Asha Education Foundation,Schoolbags,94,65,60,34,0.8,316,1
+2026-04-01,2026,4,ORG001,Asha Education Foundation,Clothing,145,114,39,40,1.0,141,1
+2026-04-01,2026,4,ORG001,Asha Education Foundation,Blankets,50,29,24,26,0.7,24,1
+2026-04-01,2026,4,ORG001,Asha Education Foundation,Hygiene Products,157,88,90,92,1.1,188,1
+2026-04-01,2026,4,ORG002,Goonj Seva Trust,Books,69,61,15,8,0.8,288,1
+2026-04-01,2026,4,ORG002,Goonj Seva Trust,Notebooks,144,107,66,39,0.8,469,1
+2026-04-01,2026,4,ORG002,Goonj Seva Trust,Schoolbags,46,32,12,18,0.8,167,1
+2026-04-01,2026,4,ORG002,Goonj Seva Trust,Clothing,252,225,87,37,1.0,232,1
+2026-04-01,2026,4,ORG002,Goonj Seva Trust,Blankets,99,65,18,38,0.7,50,1
+2026-04-01,2026,4,ORG002,Goonj Seva Trust,Hygiene Products,398,337,231,70,1.1,338,1
+2026-04-01,2026,4,ORG003,Pratham Youth Initiative,Books,141,112,25,29,0.8,649,1
+2026-04-01,2026,4,ORG003,Pratham Youth Initiative,Notebooks,237,194,118,48,0.8,932,1
+2026-04-01,2026,4,ORG003,Pratham Youth Initiative,Schoolbags,95,76,35,24,0.8,396,1
+2026-04-01,2026,4,ORG003,Pratham Youth Initiative,Clothing,307,186,187,157,1.0,324,1
+2026-04-01,2026,4,ORG003,Pratham Youth Initiative,Blankets,44,29,17,18,0.7,25,1
+2026-04-01,2026,4,ORG003,Pratham Youth Initiative,Hygiene Products,177,129,82,49,1.1,194,1
+2026-04-01,2026,4,ORG004,Sneha Health & Shelter,Books,84,52,26,38,0.8,239,1
+2026-04-01,2026,4,ORG004,Sneha Health & Shelter,Notebooks,133,79,51,74,0.8,487,1
+2026-04-01,2026,4,ORG004,Sneha Health & Shelter,Schoolbags,55,45,11,13,0.8,201,1
+2026-04-01,2026,4,ORG004,Sneha Health & Shelter,Clothing,258,217,122,50,1.0,281,1
+2026-04-01,2026,4,ORG004,Sneha Health & Shelter,Blankets,99,56,41,54,0.7,57,1
+2026-04-01,2026,4,ORG004,Sneha Health & Shelter,Hygiene Products,331,245,98,91,1.1,304,1
+2026-04-01,2026,4,ORG005,Vidya Jyoti Rural Mission,Books,182,107,42,79,0.8,616,1
+2026-04-01,2026,4,ORG005,Vidya Jyoti Rural Mission,Notebooks,301,177,115,156,0.8,1180,1
+2026-04-01,2026,4,ORG005,Vidya Jyoti Rural Mission,Schoolbags,104,60,48,46,0.8,365,1
+2026-04-01,2026,4,ORG005,Vidya Jyoti Rural Mission,Clothing,134,118,46,20,1.0,130,1
+2026-04-01,2026,4,ORG005,Vidya Jyoti Rural Mission,Blankets,113,91,23,24,0.7,50,1
+2026-04-01,2026,4,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,145,93,94,58,1.1,200,1
+2026-04-01,2026,4,ORG006,Karuna Care Society,Books,95,85,54,14,0.8,329,1
+2026-04-01,2026,4,ORG006,Karuna Care Society,Notebooks,179,139,38,56,0.8,628,1
+2026-04-01,2026,4,ORG006,Karuna Care Society,Schoolbags,52,35,9,23,0.8,203,1
+2026-04-01,2026,4,ORG006,Karuna Care Society,Clothing,259,181,46,93,1.0,332,1
+2026-04-01,2026,4,ORG006,Karuna Care Society,Blankets,109,80,33,30,0.7,49,1
+2026-04-01,2026,4,ORG006,Karuna Care Society,Hygiene Products,333,225,130,137,1.1,346,1
+2026-05-01,2026,5,ORG001,Asha Education Foundation,Books,657,434,187,234,2.8,637,1
+2026-05-01,2026,5,ORG001,Asha Education Foundation,Notebooks,1007,860,452,199,2.8,1063,1
+2026-05-01,2026,5,ORG001,Asha Education Foundation,Schoolbags,281,221,53,80,2.8,262,1
+2026-05-01,2026,5,ORG001,Asha Education Foundation,Clothing,133,114,76,21,1.0,115,1
+2026-05-01,2026,5,ORG001,Asha Education Foundation,Blankets,20,17,4,5,0.3,24,1
+2026-05-01,2026,5,ORG001,Asha Education Foundation,Hygiene Products,170,126,55,46,1.1,199,1
+2026-05-01,2026,5,ORG002,Goonj Seva Trust,Books,313,193,76,129,2.8,349,1
+2026-05-01,2026,5,ORG002,Goonj Seva Trust,Notebooks,550,306,314,249,2.8,502,1
+2026-05-01,2026,5,ORG002,Goonj Seva Trust,Schoolbags,213,143,67,87,2.8,191,1
+2026-05-01,2026,5,ORG002,Goonj Seva Trust,Clothing,296,240,130,71,1.0,318,1
+2026-05-01,2026,5,ORG002,Goonj Seva Trust,Blankets,43,26,9,22,0.3,40,1
+2026-05-01,2026,5,ORG002,Goonj Seva Trust,Hygiene Products,290,242,59,59,1.1,356,1
+2026-05-01,2026,5,ORG003,Pratham Youth Initiative,Books,660,556,331,106,2.8,610,1
+2026-05-01,2026,5,ORG003,Pratham Youth Initiative,Notebooks,1127,872,330,287,2.8,1106,1
+2026-05-01,2026,5,ORG003,Pratham Youth Initiative,Schoolbags,306,187,155,130,2.8,370,1
+2026-05-01,2026,5,ORG003,Pratham Youth Initiative,Clothing,300,180,77,156,1.0,272,1
+2026-05-01,2026,5,ORG003,Pratham Youth Initiative,Blankets,26,20,6,7,0.3,24,1
+2026-05-01,2026,5,ORG003,Pratham Youth Initiative,Hygiene Products,184,150,82,38,1.1,156,1
+2026-05-01,2026,5,ORG004,Sneha Health & Shelter,Books,219,143,141,85,2.8,254,1
+2026-05-01,2026,5,ORG004,Sneha Health & Shelter,Notebooks,598,520,165,86,2.8,415,1
+2026-05-01,2026,5,ORG004,Sneha Health & Shelter,Schoolbags,200,178,47,26,2.8,191,1
+2026-05-01,2026,5,ORG004,Sneha Health & Shelter,Clothing,277,171,83,119,1.0,285,1
+2026-05-01,2026,5,ORG004,Sneha Health & Shelter,Blankets,45,27,25,19,0.3,41,1
+2026-05-01,2026,5,ORG004,Sneha Health & Shelter,Hygiene Products,290,176,58,156,1.1,359,1
+2026-05-01,2026,5,ORG005,Vidya Jyoti Rural Mission,Books,538,397,257,179,2.8,646,1
+2026-05-01,2026,5,ORG005,Vidya Jyoti Rural Mission,Notebooks,1177,663,333,608,2.8,1234,1
+2026-05-01,2026,5,ORG005,Vidya Jyoti Rural Mission,Schoolbags,364,327,206,39,2.8,398,1
+2026-05-01,2026,5,ORG005,Vidya Jyoti Rural Mission,Clothing,159,142,102,22,1.0,161,1
+2026-05-01,2026,5,ORG005,Vidya Jyoti Rural Mission,Blankets,50,41,10,12,0.3,42,1
+2026-05-01,2026,5,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,206,145,75,69,1.1,146,1
+2026-05-01,2026,5,ORG006,Karuna Care Society,Books,309,177,85,146,2.8,317,1
+2026-05-01,2026,5,ORG006,Karuna Care Society,Notebooks,557,356,284,259,2.8,590,1
+2026-05-01,2026,5,ORG006,Karuna Care Society,Schoolbags,183,110,85,97,2.8,178,1
+2026-05-01,2026,5,ORG006,Karuna Care Society,Clothing,295,224,104,74,1.0,233,1
+2026-05-01,2026,5,ORG006,Karuna Care Society,Blankets,50,31,32,21,0.3,43,1
+2026-05-01,2026,5,ORG006,Karuna Care Society,Hygiene Products,346,251,210,125,1.1,340,1
+2026-06-01,2026,6,ORG001,Asha Education Foundation,Books,531,444,152,100,2.8,435,1
+2026-06-01,2026,6,ORG001,Asha Education Foundation,Notebooks,1018,784,652,273,2.8,761,1
+2026-06-01,2026,6,ORG001,Asha Education Foundation,Schoolbags,333,190,62,150,2.8,310,1
+2026-06-01,2026,6,ORG001,Asha Education Foundation,Clothing,153,129,61,28,1.0,230,1
+2026-06-01,2026,6,ORG001,Asha Education Foundation,Blankets,27,18,6,11,0.3,26,1
+2026-06-01,2026,6,ORG001,Asha Education Foundation,Hygiene Products,170,153,71,20,1.1,250,1
+2026-06-01,2026,6,ORG002,Goonj Seva Trust,Books,286,217,157,93,2.8,269,1
+2026-06-01,2026,6,ORG002,Goonj Seva Trust,Notebooks,656,457,305,210,2.8,352,1
+2026-06-01,2026,6,ORG002,Goonj Seva Trust,Schoolbags,177,143,45,38,2.8,154,1
+2026-06-01,2026,6,ORG002,Goonj Seva Trust,Clothing,232,197,146,47,1.0,438,1
+2026-06-01,2026,6,ORG002,Goonj Seva Trust,Blankets,54,30,12,24,0.3,43,1
+2026-06-01,2026,6,ORG002,Goonj Seva Trust,Hygiene Products,290,160,119,152,1.1,665,1
+2026-06-01,2026,6,ORG003,Pratham Youth Initiative,Books,541,342,279,264,2.8,544,1
+2026-06-01,2026,6,ORG003,Pratham Youth Initiative,Notebooks,879,677,236,269,2.8,867,1
+2026-06-01,2026,6,ORG003,Pratham Youth Initiative,Schoolbags,291,228,170,74,2.8,263,1
+2026-06-01,2026,6,ORG003,Pratham Youth Initiative,Clothing,225,152,104,102,1.0,434,1
+2026-06-01,2026,6,ORG003,Pratham Youth Initiative,Blankets,18,16,8,5,0.3,16,1
+2026-06-01,2026,6,ORG003,Pratham Youth Initiative,Hygiene Products,211,152,93,64,1.1,258,1
+2026-06-01,2026,6,ORG004,Sneha Health & Shelter,Books,239,160,145,109,2.8,227,1
+2026-06-01,2026,6,ORG004,Sneha Health & Shelter,Notebooks,687,409,290,320,2.8,456,1
+2026-06-01,2026,6,ORG004,Sneha Health & Shelter,Schoolbags,191,157,71,37,2.8,132,1
+2026-06-01,2026,6,ORG004,Sneha Health & Shelter,Clothing,262,209,161,62,1.0,376,1
+2026-06-01,2026,6,ORG004,Sneha Health & Shelter,Blankets,41,32,26,10,0.3,46,1
+2026-06-01,2026,6,ORG004,Sneha Health & Shelter,Hygiene Products,300,183,190,147,1.1,535,1
+2026-06-01,2026,6,ORG005,Vidya Jyoti Rural Mission,Books,629,494,339,168,2.8,399,1
+2026-06-01,2026,6,ORG005,Vidya Jyoti Rural Mission,Notebooks,902,619,581,366,2.8,748,1
+2026-06-01,2026,6,ORG005,Vidya Jyoti Rural Mission,Schoolbags,313,203,84,128,2.8,304,1
+2026-06-01,2026,6,ORG005,Vidya Jyoti Rural Mission,Clothing,119,94,18,33,1.0,192,1
+2026-06-01,2026,6,ORG005,Vidya Jyoti Rural Mission,Blankets,45,34,25,11,0.3,45,1
+2026-06-01,2026,6,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,143,117,48,34,1.1,301,1
+2026-06-01,2026,6,ORG006,Karuna Care Society,Books,317,260,112,68,2.8,230,1
+2026-06-01,2026,6,ORG006,Karuna Care Society,Notebooks,575,478,144,130,2.8,456,1
+2026-06-01,2026,6,ORG006,Karuna Care Society,Schoolbags,187,113,33,90,2.8,145,1
+2026-06-01,2026,6,ORG006,Karuna Care Society,Clothing,334,296,53,39,1.0,488,1
+2026-06-01,2026,6,ORG006,Karuna Care Society,Blankets,50,42,24,8,0.3,47,1
+2026-06-01,2026,6,ORG006,Karuna Care Society,Hygiene Products,255,147,102,138,1.1,655,1
+2026-07-01,2026,7,ORG001,Asha Education Foundation,Books,537,323,211,269,2.2,206,1
+2026-07-01,2026,7,ORG001,Asha Education Foundation,Notebooks,840,508,384,460,2.2,371,1
+2026-07-01,2026,7,ORG001,Asha Education Foundation,Schoolbags,255,163,118,122,2.2,129,1
+2026-07-01,2026,7,ORG001,Asha Education Foundation,Clothing,142,85,75,69,1.6,230,1
+2026-07-01,2026,7,ORG001,Asha Education Foundation,Blankets,21,18,8,5,0.3,56,1
+2026-07-01,2026,7,ORG001,Asha Education Foundation,Hygiene Products,289,232,62,59,1.7,259,1
+2026-07-01,2026,7,ORG002,Goonj Seva Trust,Books,191,121,104,88,2.2,123,1
+2026-07-01,2026,7,ORG002,Goonj Seva Trust,Notebooks,468,278,275,256,2.2,172,1
+2026-07-01,2026,7,ORG002,Goonj Seva Trust,Schoolbags,128,78,47,64,2.2,68,1
+2026-07-01,2026,7,ORG002,Goonj Seva Trust,Clothing,416,347,168,95,1.6,452,1
+2026-07-01,2026,7,ORG002,Goonj Seva Trust,Blankets,50,34,21,21,0.3,108,1
+2026-07-01,2026,7,ORG002,Goonj Seva Trust,Hygiene Products,317,268,125,65,1.7,472,1
+2026-07-01,2026,7,ORG003,Pratham Youth Initiative,Books,359,269,142,99,2.2,181,1
+2026-07-01,2026,7,ORG003,Pratham Youth Initiative,Notebooks,820,482,260,370,2.2,442,1
+2026-07-01,2026,7,ORG003,Pratham Youth Initiative,Schoolbags,278,198,65,90,2.2,132,1
+2026-07-01,2026,7,ORG003,Pratham Youth Initiative,Clothing,434,323,183,127,1.6,431,1
+2026-07-01,2026,7,ORG003,Pratham Youth Initiative,Blankets,25,16,8,10,0.3,55,1
+2026-07-01,2026,7,ORG003,Pratham Youth Initiative,Hygiene Products,322,257,81,66,1.7,262,1
+2026-07-01,2026,7,ORG004,Sneha Health & Shelter,Books,273,204,87,75,2.2,101,1
+2026-07-01,2026,7,ORG004,Sneha Health & Shelter,Notebooks,409,275,240,173,2.2,204,1
+2026-07-01,2026,7,ORG004,Sneha Health & Shelter,Schoolbags,157,96,33,73,2.2,64,1
+2026-07-01,2026,7,ORG004,Sneha Health & Shelter,Clothing,473,305,200,215,1.6,428,1
+2026-07-01,2026,7,ORG004,Sneha Health & Shelter,Blankets,51,30,9,21,0.3,92,1
+2026-07-01,2026,7,ORG004,Sneha Health & Shelter,Hygiene Products,526,317,158,233,1.7,617,1
+2026-07-01,2026,7,ORG005,Vidya Jyoti Rural Mission,Books,524,302,220,224,2.2,189,1
+2026-07-01,2026,7,ORG005,Vidya Jyoti Rural Mission,Notebooks,807,624,498,242,2.2,337,1
+2026-07-01,2026,7,ORG005,Vidya Jyoti Rural Mission,Schoolbags,208,178,42,39,2.2,120,1
+2026-07-01,2026,7,ORG005,Vidya Jyoti Rural Mission,Clothing,227,175,89,72,1.6,192,1
+2026-07-01,2026,7,ORG005,Vidya Jyoti Rural Mission,Blankets,53,30,9,25,0.3,138,1
+2026-07-01,2026,7,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,248,150,141,110,1.7,284,1
+2026-07-01,2026,7,ORG006,Karuna Care Society,Books,214,154,59,70,2.2,89,1
+2026-07-01,2026,7,ORG006,Karuna Care Society,Notebooks,400,292,227,131,2.2,198,1
+2026-07-01,2026,7,ORG006,Karuna Care Society,Schoolbags,124,82,31,52,2.2,68,1
+2026-07-01,2026,7,ORG006,Karuna Care Society,Clothing,421,235,267,246,1.6,425,1
+2026-07-01,2026,7,ORG006,Karuna Care Society,Blankets,42,25,9,22,0.3,120,1
+2026-07-01,2026,7,ORG006,Karuna Care Society,Hygiene Products,598,474,370,132,1.7,562,1
+2026-08-01,2026,8,ORG001,Asha Education Foundation,Books,221,127,56,120,1.0,194,1
+2026-08-01,2026,8,ORG001,Asha Education Foundation,Notebooks,410,238,195,237,1.0,369,1
+2026-08-01,2026,8,ORG001,Asha Education Foundation,Schoolbags,116,66,41,60,1.0,110,1
+2026-08-01,2026,8,ORG001,Asha Education Foundation,Clothing,220,181,72,52,1.6,125,1
+2026-08-01,2026,8,ORG001,Asha Education Foundation,Blankets,53,32,18,28,0.7,49,1
+2026-08-01,2026,8,ORG001,Asha Education Foundation,Hygiene Products,242,142,81,125,1.7,291,1
+2026-08-01,2026,8,ORG002,Goonj Seva Trust,Books,100,87,44,16,1.0,123,1
+2026-08-01,2026,8,ORG002,Goonj Seva Trust,Notebooks,185,143,106,53,1.0,169,1
+2026-08-01,2026,8,ORG002,Goonj Seva Trust,Schoolbags,80,61,42,20,1.0,69,1
+2026-08-01,2026,8,ORG002,Goonj Seva Trust,Clothing,472,336,91,145,1.6,303,1
+2026-08-01,2026,8,ORG002,Goonj Seva Trust,Blankets,122,95,56,36,0.7,80,1
+2026-08-01,2026,8,ORG002,Goonj Seva Trust,Hygiene Products,500,302,288,275,1.7,507,1
+2026-08-01,2026,8,ORG003,Pratham Youth Initiative,Books,205,120,131,95,1.0,236,1
+2026-08-01,2026,8,ORG003,Pratham Youth Initiative,Notebooks,314,180,193,163,1.0,435,1
+2026-08-01,2026,8,ORG003,Pratham Youth Initiative,Schoolbags,155,105,43,67,1.0,145,1
+2026-08-01,2026,8,ORG003,Pratham Youth Initiative,Clothing,464,379,200,109,1.6,259,1
+2026-08-01,2026,8,ORG003,Pratham Youth Initiative,Blankets,58,41,34,24,0.7,47,1
+2026-08-01,2026,8,ORG003,Pratham Youth Initiative,Hygiene Products,234,207,81,30,1.7,266,1
+2026-08-01,2026,8,ORG004,Sneha Health & Shelter,Books,98,65,50,43,1.0,103,1
+2026-08-01,2026,8,ORG004,Sneha Health & Shelter,Notebooks,178,122,96,66,1.0,129,1
+2026-08-01,2026,8,ORG004,Sneha Health & Shelter,Schoolbags,55,46,23,10,1.0,56,1
+2026-08-01,2026,8,ORG004,Sneha Health & Shelter,Clothing,545,353,155,264,1.6,284,1
+2026-08-01,2026,8,ORG004,Sneha Health & Shelter,Blankets,115,64,54,64,0.7,129,1
+2026-08-01,2026,8,ORG004,Sneha Health & Shelter,Hygiene Products,713,412,235,324,1.7,564,1
+2026-08-01,2026,8,ORG005,Vidya Jyoti Rural Mission,Books,202,115,77,88,1.0,220,1
+2026-08-01,2026,8,ORG005,Vidya Jyoti Rural Mission,Notebooks,391,248,158,186,1.0,458,1
+2026-08-01,2026,8,ORG005,Vidya Jyoti Rural Mission,Schoolbags,122,79,46,47,1.0,122,1
+2026-08-01,2026,8,ORG005,Vidya Jyoti Rural Mission,Clothing,263,183,148,82,1.6,164,1
+2026-08-01,2026,8,ORG005,Vidya Jyoti Rural Mission,Blankets,128,94,20,35,0.7,118,1
+2026-08-01,2026,8,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,296,219,188,91,1.7,276,1
+2026-08-01,2026,8,ORG006,Karuna Care Society,Books,108,77,20,34,1.0,112,1
+2026-08-01,2026,8,ORG006,Karuna Care Society,Notebooks,137,92,60,48,1.0,156,1
+2026-08-01,2026,8,ORG006,Karuna Care Society,Schoolbags,77,51,37,36,1.0,67,1
+2026-08-01,2026,8,ORG006,Karuna Care Society,Clothing,450,252,187,218,1.6,304,1
+2026-08-01,2026,8,ORG006,Karuna Care Society,Blankets,136,110,58,29,0.7,99,1
+2026-08-01,2026,8,ORG006,Karuna Care Society,Hygiene Products,471,383,168,112,1.7,533,1
+2026-09-01,2026,9,ORG001,Asha Education Foundation,Books,155,132,57,29,1.0,288,1
+2026-09-01,2026,9,ORG001,Asha Education Foundation,Notebooks,367,210,215,213,1.0,547,1
+2026-09-01,2026,9,ORG001,Asha Education Foundation,Schoolbags,110,97,45,13,1.0,156,1
+2026-09-01,2026,9,ORG001,Asha Education Foundation,Clothing,158,98,55,70,1.0,203,1
+2026-09-01,2026,9,ORG001,Asha Education Foundation,Blankets,61,44,32,24,0.7,55,1
+2026-09-01,2026,9,ORG001,Asha Education Foundation,Hygiene Products,249,175,70,79,1.7,175,1
+2026-09-01,2026,9,ORG002,Goonj Seva Trust,Books,114,100,58,19,1.0,121,1
+2026-09-01,2026,9,ORG002,Goonj Seva Trust,Notebooks,231,172,100,62,1.0,277,1
+2026-09-01,2026,9,ORG002,Goonj Seva Trust,Schoolbags,67,37,19,39,1.0,81,1
+2026-09-01,2026,9,ORG002,Goonj Seva Trust,Clothing,277,246,116,37,1.0,391,1
+2026-09-01,2026,9,ORG002,Goonj Seva Trust,Blankets,109,98,62,13,0.7,99,1
+2026-09-01,2026,9,ORG002,Goonj Seva Trust,Hygiene Products,564,432,139,153,1.7,329,1
+2026-09-01,2026,9,ORG003,Pratham Youth Initiative,Books,203,160,57,59,1.0,277,1
+2026-09-01,2026,9,ORG003,Pratham Youth Initiative,Notebooks,414,306,74,111,1.0,491,1
+2026-09-01,2026,9,ORG003,Pratham Youth Initiative,Schoolbags,144,128,68,21,1.0,191,1
+2026-09-01,2026,9,ORG003,Pratham Youth Initiative,Clothing,275,202,57,77,1.0,452,1
+2026-09-01,2026,9,ORG003,Pratham Youth Initiative,Blankets,53,29,24,26,0.7,73,1
+2026-09-01,2026,9,ORG003,Pratham Youth Initiative,Hygiene Products,292,204,100,113,1.7,176,1
+2026-09-01,2026,9,ORG004,Sneha Health & Shelter,Books,86,54,31,44,1.0,164,1
+2026-09-01,2026,9,ORG004,Sneha Health & Shelter,Notebooks,187,117,30,92,1.0,243,1
+2026-09-01,2026,9,ORG004,Sneha Health & Shelter,Schoolbags,64,53,12,14,1.0,93,1
+2026-09-01,2026,9,ORG004,Sneha Health & Shelter,Clothing,263,222,142,54,1.0,419,1
+2026-09-01,2026,9,ORG004,Sneha Health & Shelter,Blankets,88,71,50,24,0.7,109,1
+2026-09-01,2026,9,ORG004,Sneha Health & Shelter,Hygiene Products,497,411,127,92,1.7,317,1
+2026-09-01,2026,9,ORG005,Vidya Jyoti Rural Mission,Books,231,200,99,42,1.0,275,1
+2026-09-01,2026,9,ORG005,Vidya Jyoti Rural Mission,Notebooks,413,294,245,148,1.0,454,1
+2026-09-01,2026,9,ORG005,Vidya Jyoti Rural Mission,Schoolbags,137,88,87,59,1.0,169,1
+2026-09-01,2026,9,ORG005,Vidya Jyoti Rural Mission,Clothing,144,86,58,68,1.0,192,1
+2026-09-01,2026,9,ORG005,Vidya Jyoti Rural Mission,Blankets,112,62,50,65,0.7,81,1
+2026-09-01,2026,9,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,243,198,43,62,1.7,206,1
+2026-09-01,2026,9,ORG006,Karuna Care Society,Books,97,73,23,25,1.0,129,1
+2026-09-01,2026,9,ORG006,Karuna Care Society,Notebooks,227,156,98,83,1.0,241,1
+2026-09-01,2026,9,ORG006,Karuna Care Society,Schoolbags,66,57,12,9,1.0,93,1
+2026-09-01,2026,9,ORG006,Karuna Care Society,Clothing,289,196,82,114,1.0,424,1
+2026-09-01,2026,9,ORG006,Karuna Care Society,Blankets,103,71,50,38,0.7,111,1
+2026-09-01,2026,9,ORG006,Karuna Care Society,Hygiene Products,510,349,153,216,1.7,399,1
+2026-10-01,2026,10,ORG001,Asha Education Foundation,Books,259,165,54,129,1.4,321,1
+2026-10-01,2026,10,ORG001,Asha Education Foundation,Notebooks,593,402,266,253,1.4,685,1
+2026-10-01,2026,10,ORG001,Asha Education Foundation,Schoolbags,158,117,34,56,1.4,182,1
+2026-10-01,2026,10,ORG001,Asha Education Foundation,Clothing,233,148,124,86,1.5,204,1
+2026-10-01,2026,10,ORG001,Asha Education Foundation,Blankets,58,39,14,23,0.7,188,1
+2026-10-01,2026,10,ORG001,Asha Education Foundation,Hygiene Products,164,118,58,56,1.1,183,1
+2026-10-01,2026,10,ORG002,Goonj Seva Trust,Books,142,113,79,35,1.4,157,1
+2026-10-01,2026,10,ORG002,Goonj Seva Trust,Notebooks,250,196,55,65,1.4,329,1
+2026-10-01,2026,10,ORG002,Goonj Seva Trust,Schoolbags,78,59,47,20,1.4,107,1
+2026-10-01,2026,10,ORG002,Goonj Seva Trust,Clothing,491,355,269,185,1.5,398,1
+2026-10-01,2026,10,ORG002,Goonj Seva Trust,Blankets,100,86,60,18,0.7,315,1
+2026-10-01,2026,10,ORG002,Goonj Seva Trust,Hygiene Products,324,205,77,139,1.1,374,1
+2026-10-01,2026,10,ORG003,Pratham Youth Initiative,Books,260,170,57,111,1.4,250,1
+2026-10-01,2026,10,ORG003,Pratham Youth Initiative,Notebooks,404,349,211,72,1.4,483,1
+2026-10-01,2026,10,ORG003,Pratham Youth Initiative,Schoolbags,206,123,47,94,1.4,163,1
+2026-10-01,2026,10,ORG003,Pratham Youth Initiative,Clothing,382,228,69,207,1.5,450,1
+2026-10-01,2026,10,ORG003,Pratham Youth Initiative,Blankets,47,35,20,15,0.7,218,1
+2026-10-01,2026,10,ORG003,Pratham Youth Initiative,Hygiene Products,187,148,57,39,1.1,168,1
+2026-10-01,2026,10,ORG004,Sneha Health & Shelter,Books,123,71,52,68,1.4,127,1
+2026-10-01,2026,10,ORG004,Sneha Health & Shelter,Notebooks,296,221,163,97,1.4,239,1
+2026-10-01,2026,10,ORG004,Sneha Health & Shelter,Schoolbags,80,52,44,34,1.4,109,1
+2026-10-01,2026,10,ORG004,Sneha Health & Shelter,Clothing,378,269,114,145,1.5,482,1
+2026-10-01,2026,10,ORG004,Sneha Health & Shelter,Blankets,109,94,52,16,0.7,423,1
+2026-10-01,2026,10,ORG004,Sneha Health & Shelter,Hygiene Products,371,315,208,65,1.1,301,1
+2026-10-01,2026,10,ORG005,Vidya Jyoti Rural Mission,Books,284,185,75,130,1.4,260,1
+2026-10-01,2026,10,ORG005,Vidya Jyoti Rural Mission,Notebooks,650,434,127,224,1.4,439,1
+2026-10-01,2026,10,ORG005,Vidya Jyoti Rural Mission,Schoolbags,148,99,91,52,1.4,176,1
+2026-10-01,2026,10,ORG005,Vidya Jyoti Rural Mission,Clothing,230,146,35,116,1.5,216,1
+2026-10-01,2026,10,ORG005,Vidya Jyoti Rural Mission,Blankets,122,110,47,15,0.7,397,1
+2026-10-01,2026,10,ORG005,Vidya Jyoti Rural Mission,Hygiene Products,142,93,61,51,1.1,162,1
+2026-10-01,2026,10,ORG006,Karuna Care Society,Books,154,100,100,60,1.4,171,1
+2026-10-01,2026,10,ORG006,Karuna Care Society,Notebooks,264,218,77,63,1.4,264,1
+2026-10-01,2026,10,ORG006,Karuna Care Society,Schoolbags,89,76,18,16,1.4,102,1
+2026-10-01,2026,10,ORG006,Karuna Care Society,Clothing,400,323,117,91,1.5,354,1
+2026-10-01,2026,10,ORG006,Karuna Care Society,Blankets,105,69,42,47,0.7,285,1
+2026-10-01,2026,10,ORG006,Karuna Care Society,Hygiene Products,357,300,152,64,1.1,355,1

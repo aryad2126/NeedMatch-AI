@@ -1,0 +1,76 @@
+{
+  "model_type": "RandomForestRegressor",
+  "trained_at": "2026-10-28 00:26:37",
+  "train_samples": 972,
+  "test_samples": 252,
+  "total_samples": 1224,
+  "train_date_range": [
+    "2024-01-01",
+    "2026-03-01"
+  ],
+  "test_date_range": [
+    "2026-04-01",
+    "2026-10-01"
+  ],
+  "evaluation": {
+    "rf_mae": 61.09,
+    "rf_rmse": 96.17,
+    "rf_r2": 0.7845,
+    "baseline_mae": 103.3,
+    "baseline_rmse": 156.83,
+    "baseline_r2": 0.4269,
+    "mae_improvement_pct": 40.86
+  },
+  "feature_importances": [
+    {
+      "feature": "historical_demand_qty",
+      "importance": 0.6099
+    },
+    {
+      "feature": "month",
+      "importance": 0.1417
+    },
+    {
+      "feature": "season_factor",
+      "importance": 0.1109
+    },
+    {
+      "feature": "fulfilled_qty",
+      "importance": 0.0343
+    },
+    {
+      "feature": "outstanding_requests",
+      "importance": 0.0249
+    },
+    {
+      "feature": "inventory_level",
+      "importance": 0.0242
+    },
+    {
+      "feature": "category_Blankets",
+      "importance": 0.0161
+    },
+    {
+      "feature": "category_Clothing",
+      "importance": 0.0084
+    },
+    {
+      "feature": "category_Books",
+      "importance": 0.007
+    },
+    {
+      "feature": "category_Schoolbags",
+      "importance": 0.0042
+    },
+    {
+      "feature": "category_Notebooks",
+      "importance": 0.0035
+    },
+    {
+      "feature": "org_id_ORG003",
+      "importance": 0.0033
+    }
+  ],
+  "is_synthetic": true,
+  "synthetic_disclaimer": "The model was trained on a calibrated synthetic historical dataset with realistic seasonal distributions."
+}
